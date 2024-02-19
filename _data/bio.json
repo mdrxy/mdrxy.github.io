@@ -1,118 +1,234 @@
 {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Mason Daugherty",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://avatars.githubusercontent.com/u/61371264?v=4",
+    "email": "m@mdrxy.com",
+    "phone": "",
+    "website": "https://mdrxy.com",
+    "summary": "I'm a Texan-turned-Mainer, currently studying Computer Science and Digital & Computational Studies on the beautiful campus of Bowdoin College (set to graduate next spring). I have passion for problem-solving and utilizing effective storytelling to simplify complex ideas. Although I dedicated the past few years to refining my skills in media production, my current focus is on navigating our society's evolving digital landscape.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Brunswick",
+      "countryCode": "US",
+      "region": "Maine"
+    },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      {
+        "network": "github",
+        "username": "mdrxy",
+        "url": "https://github.com/mdrxy"
+      },
+      {
+        "network": "linkedin",
+        "username": "mdrxy",
+        "url": "https://linkedin.com/in/mdrxy"
+      }
     ]
   },
-  "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
-    }
-  ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "name": "WBOR 91.1 FM",
+      "company": "WBOR 91.1 FM",
+      "url": "https://wbor.org",
+      "website": "https://wbor.org",
+      "location": "Brunswick, ME",
+      "description": "Noncommercial community public radio station",
+      "summary": "Noncommercial community public radio station",
+      "position": "Station Manager & TechOps Lead",
+      "startDate": "2021-09-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Oversee 200+ student & community DJs, supervise station broadcast equipment and facilities",
+        "Write detailed engineering documentation of signal-chain, inventory, and internal tools using Confluence",
+        "Maintain EAS (Emergency Alert System) logs and routine maintenance, ensuring compliance with FEMA and state regulations",
+        "Compile quarterly reports to be submitted on behalf of Bowdoin College to the Federal Communications Commission",
+        "Built current website, implementing a high performance now-playing websocket between client and stream",
+        "Back-end systems integration and implementation of metadata distribution channels to third-party platforms such as TuneIn Radio and Apple Music",
+        "Selected and maintain the station's online stream-hosting platform",
+        "Secured all online accounts and profiles by implementing rigorous standards, with the help of a central password manager that I chose and set up (1Password Enterprise - SSO integration with Okta)",
+        "Built and refined onboarding and application forms for new volunteers",
+        "Engage 100% of the 1,100+ recorded WBOR Alumni"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "name": "Bowdoin College Information Technology",
+      "company": "Bowdoin College Information Technology",
+      "url": "https://bowdoin.edu/it",
+      "website": "https://bowdoin.edu/it",
+      "location": "Brunswick, ME",
+      "description": "Campus IT services",
+      "summary": "Campus IT services",
+      "position": "Student Technical Support Representative",
+      "startDate": "2022-01-01",
+      "endDate": "Present",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Assist members of 2,500-person campus community with technical requests",
+        "Generated thorough records and ticketing via the Teamdynamix ITSM system",
+        "Utilize Jamf Pro Apple management software to manage 4,500+ iPad and Mac devices",
+        "Assist in event production and provide technical support for various campus events (graduation, commencement)"
+      ]
+    },
+    {
+      "name": "LACORE Enterprises",
+      "company": "LACORE Enterprises",
+      "url": "https://lacore.com",
+      "website": "https://lacore.com",
+      "location": "Dallas, TX",
+      "description": "Business management, services, and consulting",
+      "summary": "Business management, services, and consulting",
+      "position": "Director of Digital Media",
+      "startDate": "2020-06-01",
+      "endDate": "2021-07-01",
+      "highlights": [
+        "Orchestrated comprehensive rebranding initiatives across six corporate entities, encompassing website design, on-site visual content creation, and streamlined online consistency",
+        "Strategically aligned brand vision through regular supervisor consultations, culminating in a cohesive online identity",
+        "Conducted virtual audits for accreditation bodies such as NSF and ISO (17025), while optimizing internal operations by developing in-house hiring intake forms"
+      ]
+    },
+    {
+      "name": "Northeast Photographic",
+      "company": "Northeast Photographic",
+      "url": "https://northeastphotographic.com",
+      "website": "https://northeastphotographic.com",
+      "location": "Bath, ME",
+      "description": "Full service photochemical film lab",
+      "summary": "Full service photochemical film lab",
+      "position": "Lab Technician",
+      "startDate": "2023-06-01",
+      "endDate": "2023-09-01",
+      "highlights": [
+        "Developed mastery in operating Colex and Jobo rotary film processors",
+        "Proficiency in C-41, E-6, and B&W chemical processes"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "McKeen Center for the Common Good",
+      "position": "Community Immersion Orientation Trip Leader",
+      "url": "https://www.bowdoin.edu/mckeen-center/",
+      "startDate": "2022-09-01",
+      "endDate": "2023-09-01",
+      "summary": "Led groups of students in community philanthropy at Maine's island communities",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Engaged in work with the Maine Coast Heritage Trust, the island schools, Watermans Community Center, Vinalhaven Eldercare"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "organization": "U.S. House of Representatives",
+      "position": "Congressional Advisory Council Member (TX-03)",
+      "startDate": "2019-09-01",
+      "endDate": "2020-06-01",
+      "summary": "Interacted with elected officials to discuss current and proposed federal and local policy"
+    },
+    {
+      "organization": "Vice President of Meetings",
+      "position": "Young Men's Service League",
+      "startDate": "2016-08-01",
+      "endDate": "2020-05-01",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Former Historian and Board Chair",
+        "Volunteered in local community philanthropies, including Habitat for Humanity, McKinney Roots, and HUGS Cafe"
+      ]
+    },
+    {
+      "organization": "Vice President of Service",
+      "position": "World Affairs Council of Dallas/Fort Worth",
+      "startDate": "2017-08-01",
+      "endDate": "2020-06-01",
+      "highlights": [
+        "Steered a successful marketing initiative that garnered $15,000 in support for a demining campaign in Dimce, Kosovo, with matching contributions from two external parties, including the Princess Diana Foundation",
+        "Orchestrated sponsor communication, vendor collaboration, and strategic outreach efforts, resulting in a remarkable 31% surge in club membership through targeted physical advertisements"
+      ]
+    },
+    {
+      "organization": "WWOOF-USA",
+      "position": "Farm Hand",
+      "startDate": "2020-09-01",
+      "endDate": "2020-09-01",
+      "summary": "Volunteered in residence at a leading New England farm and apothecary",
+      "highlights": [
+        "Landscaping",
+        "Horticulture",
+        "Grounds security enhancement (additional fencing, IP camera installation)"
+      ]
+    },
+    {
+      "organization": "Bowdoin College Library",
+      "position": "Faculty Library Committee",
+      "startDate": "2022-01-01",
+      "endDate": "2022-05-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Bowdoin College",
+      "url": "https://www.bowdoin.edu/",
+      "area": "Computer Science, Digital & Computational Studies",
+      "studyType": "Bachelor",
+      "startDate": "2021-09-01",
+      "endDate": "2025-05-01",
+      "courses": [
+        "Software Engineering",
+        "Foundations of Computer Systems",
+        "Human-Computer Interaction",
+        "Artificial Intelligence",
+        "Data Structures",
+        "Digital Text Analysis",
+        "Cognitive Architecture",
+        "Theory of Computation",
+        "Tech and the Common Good"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "StudentCam Grand Prize Winner",
+      "date": "2019-03-01",
+      "awarder": "C-SPAN",
+      "summary": "Produced winning documentary and was recognized on the US Congress House Floor by Congressman Van Taylor for helping to engage youth and bring awareness to the powers of citizen accountability in government",
+      "url": "https://www.viddler.com/v/efd8cfd4"
     }
   ],
-  "references": [
+  "skills": [
     {
-      "name": "Available upon request"
+      "name": "Frontend",
+      "keywords": ["HTML", "CSS/Bootstrap", "Javascript"]
+    },
+    {
+      "name": "Backend",
+      "keywords": ["Java", "Python", "Flask", "JUnit"]
+    },
+    {
+      "name": "Devops",
+      "keywords": ["Git", "GitHub Actions", "Docker", "G Cloud", "Confluence"]
+    },
+    {
+      "name": "Collaboration Tools",
+      "keywords": ["Office Suite", "Atlassian Cloud", "Slack"]
     }
-  ]
+  ],
+  "interests": [
+    {
+      "name": "Photography"
+    },
+    {
+      "name": "Concerts"
+    },
+    {
+      "name": "Rowing Crew"
+    },
+    {
+      "name": "Freeform radio"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/mdrxy/mdrxy.github.io/main/_data/bio.json",
+    "version": "v1.0.0",
+    "lastModified": "2024-02-19T23:15:00"
+  }
 }
