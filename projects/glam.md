@@ -2,7 +2,7 @@
 layout: project
 type: project
 draft: false
-image: img/vacay/vacay-square.png
+image: img/glam/andrew-neel-acowe0pCVBg-unsplash.png
 title: "Informatics Best-Practices for Gallery, Library, Archive, and Museum Institutions"
 date: 2023
 published: true

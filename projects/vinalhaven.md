@@ -2,7 +2,7 @@
 layout: project
 type: project
 draft: false
-image: img/vacay/vacay-square.png
+image: img/vinalhaven/vinalhaven.png
 title: "Change & Continuity: Vinalhaven"
 date: 2022
 published: true

@@ -2,7 +2,7 @@
 layout: project
 type: project
 draft: false
-image: img/vacay/vacay-square.png
+image: img/spinitron/wbor-scrobbler.png
 title: "Spinitron Web Scrobbler"
 date: 2024
 published: true

@@ -2,7 +2,7 @@
 layout: project
 type: project
 draft: false
-image: img/vacay/vacay-square.png
+image: img/vietnam/orient.png
 title: "Digital Text Analysis of The Orient's Vietnam War Coverage"
 date: 2023
 published: true
