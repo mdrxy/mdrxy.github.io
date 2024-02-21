@@ -3,7 +3,7 @@ layout: project
 type: project
 draft: false
 image: img/vietnam/orient.png
-title: "Digital Text Analysis of The Orient's Vietnam War Coverage"
+title: "Orient vs. Vietnam"
 date: 2023
 published: true
 labels:
@@ -14,6 +14,6 @@ labels:
   - Stylometry
   - Topic Modeling
   - Text Mining
-summary: "An exploratory, skeptical digital text analysis of the Bowdoin Orient coverage of the Vietnam War between 1961-75"
+summary: "Exploratory digital text analysis of The Bowdoin Orient's coverage of the Vietnam War between 1961-75."
 projecturl: https://sites.google.com/bowdoin.edu/2500-final-vietnam/home
 ---

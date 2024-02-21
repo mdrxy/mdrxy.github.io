@@ -11,6 +11,6 @@ labels:
   - Linked Open Data
   - Computer Vision
 
-summary: "Grant-funded literature review of the digital representation of collection objects"
+summary: "Grant-funded literature review of the digital representation methodologies for collection objects."
 projecturl: https://www.bowdoin.edu/student-fellowships/recent-winners/bowdoin-funded/daugherty,-mason.pdf
 ---

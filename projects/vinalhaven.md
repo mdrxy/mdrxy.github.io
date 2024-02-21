@@ -11,6 +11,6 @@ labels:
   - Directing
   - Storytelling
 
-summary: "Documentary that explores the past, present, and future of a Maine island community whose economy and ecology are under threat"
+summary: "Documentary exploring the past, present, and future of a Maine island community whose economy and ecology are under immediate threat".
 projecturl: https://www.bowdoin.edu/news/2021/12/ecocinema-class-student-films.html
 ---

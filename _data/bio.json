@@ -214,13 +214,13 @@
   ],
   "interests": [
     {
-      "name": "Photography"
+      "name": "Photography & Filmmaking"
     },
     {
-      "name": "Concerts"
+      "name": "Rowing"
     },
     {
-      "name": "Rowing Crew"
+      "name": "Digital privacy"
     },
     {
       "name": "Freeform radio"
@@ -228,7 +228,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/mdrxy/mdrxy.github.io/main/_data/bio.json",
-    "version": "v1.0.0",
-    "lastModified": "2024-02-19T23:15:00"
+    "version": "v1.0.1",
+    "lastModified": "2024-02-1921T23:01:00"
   }
 }

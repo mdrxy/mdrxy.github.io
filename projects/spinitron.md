@@ -12,6 +12,6 @@ labels:
   - API
   - Last.fm
 
-summary: "Takes live track info from a Spinitron station and scrobbles to a Last.fm account"
+summary: "Takes now-playing track metadata from a Spinitron station and scrobbles to a Last.fm profile."
 projecturl: https://github.com/mdrxy/wbor-scrobbler
 ---
