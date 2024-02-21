@@ -9,9 +9,8 @@ published: true
 labels:
   - R 4.2
   - Voyant
-  - Natural Language Processing (NLP)
+  - Natural Language Processing
   - Sentiment Analysis
-  - Stylometry
   - Topic Modeling
   - Text Mining
 summary: "Exploratory digital text analysis of The Bowdoin Orient's coverage of the Vietnam War between 1961-75."

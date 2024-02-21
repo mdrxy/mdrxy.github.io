@@ -11,6 +11,7 @@ labels:
   - Python
   - API
   - Last.fm
+  - CLI
 
 summary: "Takes now-playing track metadata from a Spinitron station and scrobbles to a Last.fm profile."
 projecturl: https://github.com/mdrxy/wbor-scrobbler
