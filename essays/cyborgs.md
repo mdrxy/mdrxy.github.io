@@ -8,6 +8,7 @@ published: true
 labels:
   - Biohacking
   - RFID/NFC
+essayurl: https://bowdoinreview.com/2022/09/18/radios-dead-but-were-still-dancing/
 
 ---
 
