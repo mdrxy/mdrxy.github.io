@@ -8,11 +8,13 @@ published: true
 labels:
   - Biohacking
   - RFID/NFC
-essayurl: https://bowdoinreview.com/2022/09/18/radios-dead-but-were-still-dancing/
+essayurl: https://students.bowdoin.edu/bowdoin-review/technology/cyborgs-walk-among-us/
 
 ---
 
-**Since 2017, I have been a walking cyborg.** No, not the Hollywood type (looking at you Terminator and RoboCop), but instead, a "vanilla" cyborg, if such a concept exists. Put simply, I have a microchip the size of a grain of rice in each of my hands. And since my arrival on Bowdoin's campus this fall, I have used one to act as my college OneCard.
+**The lines separating humans and technology are blurring. Should we embrace it?**
+
+Since 2017, I have been a walking cyborg. No, not the Hollywood type (looking at you Terminator and RoboCop), but instead, a "vanilla" cyborg, if such a concept exists. Put simply, I have a microchip the size of a grain of rice in each of my hands. And since my arrival on Bowdoin's campus this fall, I have used one to act as my college OneCard.
 
 Imagine: you've just trudged across a snow covered quad and are eager to get back into your warm dorm. What if instead of rummaging through your pockets for your OneCard, you unlock the door by presenting your bare hand to the sensor? This is my reality, and it is quickly becoming that of others around the world, too.
 
@@ -46,7 +48,7 @@ Looking forward, in addition to exciting possibilities, the intersection between
 
 > "The challenge with such progress is the question of whether we're leaving behind our humanness and humanity. It's a good question. However, we shouldn't forget our sense of being a human is ultimately based on millions of years of evolution. In the end, like it or not, we are still stardust from eons ago--and not just biological humans. Perhaps deep down, the essence of our being and the wiring of our brain comprehend that in a spiritual way we can't rationally understand yet. After all, our evolutionary heritage is the cornerstone of why human beings are what they are: mammals that are becoming essentially gods." -- [Zoltan Istvan](https://www.huffpost.com/entry/are-you-ready-for-the-fut_b_10199682)
 
-[Originally published for The Bowdoin Review](https://bowdoinreview.com/2021/11/17/cyborgs-walk-among-us/)
+[Originally published for The Bowdoin Review](https://students.bowdoin.edu/bowdoin-review/technology/cyborgs-walk-among-us/)
 
 ### Further Reading
 

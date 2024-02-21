@@ -9,7 +9,7 @@ labels:
   - College Radio
   - Spotify
   - Apple Music
-essayurl: https://bowdoinreview.com/2022/09/18/radios-dead-but-were-still-dancing/
+essayurl: https://students.bowdoin.edu/bowdoin-review/lead/radios-dead-but-were-still-dancing/
 ---
 
 The Weeknd's latest album, Dawn FM, has brought listeners an auditory experience that many thought to be lost to time: radio. In a media landscape dominated by streaming, it's easy to feel that AM and FM radio are hopelessly outdated. Radio popularity and listenership are trending downward and have been for some time now.  Despite this, it continues to populate the airwaves. What, then, lies ahead for terrestrial broadcasting?
@@ -59,6 +59,8 @@ The bulk of radio receivers still in production are installed in automobiles: "2
 Radio, as listeners know it in 2022, isn't how future generations will know radio, and that's perfectly fine. While it's hard to say what form radio will evolve into, there are a few underlying themes that we can expect to see with reasonable certainty: (1) Radio is a format constantly in flux. (2) Radio, as it's known today, can only continue to exist without commercial incentives. (3) Radio will still make profound differences in communities, whether those communities are bounded geographically or online.
 
 Of the DJs I surveyed, similar sentiments were shared. While they acknowledge that the future is uncertain, they think radio will continue to find its place. Car manufacturers, currently one of the largest manufacturers of radios, will likely push to cut them from future iterations of vehicles to match demand and cut costs. This will make terrestrial radio mainly inaccessible to the general public, leading to radio being pushed online. As a result, FM and AM listenership will be reduced to enthusiasts, similar to present-day audiophiles or vinyl enjoyers. Despite this, radios will likely never be replaceable by algorithms. People will continue to communicate their opinions one way or another, and that's beautiful.
+
+[Originally published for The Bowdoin Review](https://students.bowdoin.edu/bowdoin-review/lead/radios-dead-but-were-still-dancing/)
 
 ### References
 
