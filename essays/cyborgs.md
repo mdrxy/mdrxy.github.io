@@ -12,6 +12,8 @@ essayurl: https://students.bowdoin.edu/bowdoin-review/technology/cyborgs-walk-am
 
 ---
 
+<img width="100%" class="rounded img-fluid mx-auto d-block" src="/img/cyborgs/chip.jpg" >
+
 **The lines separating humans and technology are blurring. Should we embrace it?**
 
 Since 2017, I have been a walking cyborg. No, not the Hollywood type (looking at you Terminator and RoboCop), but instead, a "vanilla" cyborg, if such a concept exists. Put simply, I have a microchip the size of a grain of rice in each of my hands. And since my arrival on Bowdoin's campus this fall, I have used one to act as my college OneCard.
