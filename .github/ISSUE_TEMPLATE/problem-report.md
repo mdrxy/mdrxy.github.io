@@ -7,9 +7,9 @@ assignees: ''
 
 ---
 
-(Please replace this comment with your problem report.  Tell us what went wrong. 
+(Please replace this comment with your problem report.  Tell us what went wrong.
 
-If it involves console output, then please cut and paste the output into this field---don't take a snapshot and paste the image. 
+If it involves console output, then please cut and paste the output into this field---don't take a snapshot and paste the image.
 
 On the other hand, if the problem is with the visual layout of your portfolio, then please do make a snapshot.  
 
