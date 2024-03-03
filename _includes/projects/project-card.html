@@ -13,9 +13,9 @@
           {% endfor %}
         </p>
         {% if page.projecturl %}
-        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
+        <a href="{{ page.projecturl }}" class="btn btn-outline-dark" target="_blank">Project Site</a>
         {% else %}
-        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
+        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark" target="_blank">Read More</a>
         {% endif %}
       </div>
     </div>
