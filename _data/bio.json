@@ -2,9 +2,9 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Mason Daugherty",
-    "label": "Student",
+    "label": "Student, <a href=\"https://bowdoin.edu/\" target=\"_blank\">Bowdoin College</a>",
     "picture": "img/headshot.jpg",
-    "email": "m@mdrxy.com",
+    "email": "techfolio@mdrxy.com",
     "phone": "",
     "website": "https://mdrxy.com",
     "summary": "I'm a Texan-turned-Mainer, currently studying Computer Science and Digital & Computational Studies on the beautiful campus of Bowdoin College (set to graduate next spring). I have passion for problem-solving and utilizing effective storytelling to simplify complex ideas. Although I dedicated the past few years to refining my skills in media production, my current focus is on navigating our society's evolving digital landscape.",
