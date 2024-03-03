@@ -1,3 +1,3 @@
 # Professional Portfolio
 
-For details on this professional portfolio, please see https://techfolios.github.io.
+[Built using TechFolios](https://techfolios.github.io).
