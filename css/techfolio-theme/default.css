@@ -23,14 +23,39 @@
   vertical-align: -.1em;
   width: 1.5em;
   transition: 0.2s;
+  margin-right: 0.5em;
 }
 
 .tf-social:hover {
   fill: var(--tf-icon-hover);
 }
 
-a {
+.container .row .col .mb-1 a {
+  display: flex;
+  margin-bottom: 0.5rem !important;
+  /* Should really find out what the $spacer value is that its being multiplied instead of manually overwriting */
+  /* https: //getbootstrap.com/docs/4.0/utilities/spacing/ */
+}
+
+.navbar-brand-mobile {
+  display: none;
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: var(--bs-navbar-brand-color);
   text-decoration: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-brand-mobile {
+    display: inline;
+  }
 }
 
 /* Simplify the styling of the bottom of Essay cards. */
