@@ -14,9 +14,9 @@ layout: home
 
     <div class="row">
       <div class="col">
-        {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
+        <!-- {% capture url %}{{ site.data.bio.basics.website }}{% endcapture %}
         {% capture label %}{{ site.data.bio.basics.website | remove: "http://" | remove: "https://" }}{% endcapture %}
-        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p>
+        <p class="mb-1">{% include about/social.html url=url name='house' label=label %} </p> -->
 
         {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
         {% capture label %}{{ site.data.bio.basics.email }}{% endcapture %}
@@ -121,7 +121,7 @@ layout: home
           <div class="row mb-3">
             <div class="col-9">
               <p class="mb-0"><b>{{ entry.position }}, {{ entry.company }}</b></p>
-              <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+              <p class="mb-0"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
               <p class="mb-0">{{ entry.summary }}</p>
               {% if entry.highlights %}
                 <ul>
