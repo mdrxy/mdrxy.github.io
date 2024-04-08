@@ -4,10 +4,10 @@
     "name": "Mason Daugherty",
     "label": "Student, <a href=\"https://bowdoin.edu/\" target=\"_blank\">Bowdoin College</a>",
     "picture": "img/headshot.jpg",
-    "email": "techfolio@mdrxy.com",
+    "email": "m@mdrxy.com",
     "phone": "",
     "website": "https://mdrxy.com",
-    "summary": "I'm a Texan-turned-Mainer, currently studying Computer Science and <a href=\"https://www.bowdoin.edu/digital-and-computational-studies/index.html\" target=\"blank\">Digital & Computational Studies</a> on the beautiful campus of Bowdoin College (set to graduate next spring). I have passion for problem-solving and utilizing effective storytelling to simplify complex ideas. Although I dedicated the past few years to refining my skills in media production, my current focus is on navigating our society's evolving digital landscape.",
+    "summary": "I'm a Texan-turned-Mainer, currently studying Computer Science and <a href=\"https://www.bowdoin.edu/digital-and-computational-studies/index.html\" target=\"blank\">Digital & Computational Studies</a> at Bowdoin College, graduating in 2025. I have passion for problem-solving and utilizing effective storytelling to simplify complex ideas.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -72,6 +72,22 @@
       ]
     },
     {
+      "name": "Northeast Photographic",
+      "company": "Northeast Photographic",
+      "url": "https://northeastphotographic.com",
+      "website": "https://northeastphotographic.com",
+      "location": "Bath, ME",
+      "description": "Full service photochemical film lab",
+      "summary": "Full service photochemical film lab",
+      "position": "Lab Technician",
+      "startDate": "2023-06-01",
+      "endDate": "2023-09-01",
+      "highlights": [
+        "Developed mastery in operating Colex and Jobo rotary film processors",
+        "Proficiency in C-41, E-6, and B&W chemical processes"
+      ]
+    },
+    {
       "name": "LACORE Enterprises",
       "company": "LACORE Enterprises",
       "url": "https://lacore.com",
@@ -86,22 +102,6 @@
         "Orchestrated comprehensive rebranding initiatives across six corporate entities, encompassing website design, on-site visual content creation, and streamlined online consistency",
         "Strategically aligned brand vision through regular supervisor consultations, culminating in a cohesive online identity",
         "Conducted virtual audits for accreditation bodies such as NSF and ISO (17025), while optimizing internal operations by developing in-house hiring intake forms"
-      ]
-    },
-    {
-      "name": "Northeast Photographic",
-      "company": "Northeast Photographic",
-      "url": "https://northeastphotographic.com",
-      "website": "https://northeastphotographic.com",
-      "location": "Bath, ME",
-      "description": "Full service photochemical film lab",
-      "summary": "Full service photochemical film lab",
-      "position": "Lab Technician",
-      "startDate": "2023-06-01",
-      "endDate": "2023-09-01",
-      "highlights": [
-        "Developed mastery in operating Colex and Jobo rotary film processors",
-        "Proficiency in C-41, E-6, and B&W chemical processes"
       ]
     }
   ],
@@ -154,7 +154,7 @@
       "highlights": [
         "Landscaping",
         "Horticulture",
-        "Grounds security enhancement (additional fencing, IP camera installation)"
+        "Grounds security enhancement (fencing, IP camera installation)"
       ]
     },
     {

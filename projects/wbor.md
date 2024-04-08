@@ -15,6 +15,6 @@ labels:
   - G Cloud
   - Twilio
 
-summary: "Ground-up redesign of website for Bowdoin's student college radio station."
+summary: "Ground-up website redesign for Bowdoin's student-run radio station."
 projecturl: https://wbor.org
 ---
