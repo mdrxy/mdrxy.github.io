@@ -4,7 +4,7 @@
     "name": "Mason Daugherty",
     "label": "Student, <a href=\"https://bowdoin.edu/\" target=\"_blank\">Bowdoin College</a>",
     "picture": "img/headshot.jpg",
-    "email": "m@mdrxy.com",
+    "email": "portfolio@mdrxy.com",
     "phone": "",
     "website": "https://mdrxy.com",
     "summary": "I'm a Texan-turned-Mainer, currently studying Computer Science and <a href=\"https://www.bowdoin.edu/digital-and-computational-studies/index.html\" target=\"blank\">Digital & Computational Studies</a> at Bowdoin College, graduating in 2025. I have passion for problem-solving and utilizing effective storytelling to simplify complex ideas.",
@@ -224,6 +224,9 @@
     },
     {
       "name": "Freeform radio"
+    },
+    {
+      "name": "Personal OPSEC"
     }
   ],
   "meta": {
