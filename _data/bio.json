@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Mason Daugherty",
-    "label": "Student, <a href=\"https://bowdoin.edu/\" target=\"_blank\">Bowdoin College</a>",
+    "label": "Student, <a href=\"https://bowdoin.edu/\">Bowdoin College</a>",
     "picture": "img/headshot.jpg",
     "email": "portfolio@mdrxy.com",
     "phone": "",
