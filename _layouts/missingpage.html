@@ -13,8 +13,13 @@ layout: default
     <ul>
       {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
       {% for page in essay_pages %}
-      <!-- default: '{{ site.baseurl }}{{ page.url }}'' -->
-      <li><a href="{{ page.essayurl }}" target="_blank">{{ page.title }}</a></li>
+
+      <!-- If page.essayurl is defined, it will use that URL; otherwise, it will default to {{ site.baseurl }}{{ page.url }} -->
+      <li>
+        <a href="{% if page.essayurl %}{{ page.essayurl }}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">
+          {{ page.title }}
+        </a>
+      </li>
       {% endfor %}
     </ul>
 
@@ -22,7 +27,13 @@ layout: default
     <ul>
       {% assign project_pages = site.pages | where: "type", "project" | sort: "title" %}
       {% for page in project_pages %}
-      <li><a href="{{ page.projecturl }}" target="_blank">{{ page.title }}</a></li>
+      
+      <!-- If page.projecturl is defined, it will use that URL; otherwise, it will default to {{ site.baseurl }}{{ page.url }} -->
+      <li>
+        <a href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">
+          {{ page.title }}
+        </a>
+      </li>
       {% endfor %}
     </ul>
   </div>
