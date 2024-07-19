@@ -25,3 +25,4 @@ include:
   - _data
 plugins:
   - jekyll-gist
+  - jekyll-target-blank
