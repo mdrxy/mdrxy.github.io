@@ -14,7 +14,7 @@ labels:
   - Topic Modeling
   - Text Mining
 summary: "Exploratory digital text analysis of The Bowdoin Orient's coverage of the Vietnam War between 1961-75."
-projecturl: https://sites.google.com/bowdoin.edu/2500-final-vietnam/home
+# projecturl: https://sites.google.com/bowdoin.edu/2500-final-vietnam/home
 ---
 
 *An exploratory, skeptical digital text analysis of the Bowdoin Orient coverage of the Vietnam War between 1961-75*
@@ -56,27 +56,17 @@ Our group followed a relevance-based collection methodology to acquire articles.
 
 ## Composition
 
-**Publication:** *The Bowdoin Orient*
-
-**OCLC Number:** [`1013419982`](https://www.worldcat.org/oclc/1013419982)
-
-**Issue Range Searched:** `v.084 - 105`
-
-**Date Range Searched:** `01/1955 - 12/1975`
-
-**Issue Range Actual:** `v.091 - 105`
-
-**Date Range Actual:** `10/12/1961 - 11/14/1975`
-
-**Search Term:** `Vietnam` (match-case not enabled)
-
-**Size:** 133 articles (incomplete, roughly 60% of the way done)
-
-**Language:** `eng` (ISO 639-2 Code)
-
-**Source:** [Bowdoin College Digital Commons](https://digitalcommons.bowdoin.edu/bowdoinorient/)
-
-**Collection Method:** `text extraction`, `manual collection`, `crowd-sourcing`
+* **Publication:** *The Bowdoin Orient*
+* **OCLC Number:** [`1013419982`](https://www.worldcat.org/oclc/1013419982)
+* **Issue Range Searched:** `v.084 - 105`
+* **Date Range Searched:** `01/1955 - 12/1975`
+* **Issue Range Actual:** `v.091 - 105`
+* **Date Range Actual:** `10/12/1961 - 11/14/1975`
+* **Search Term:** `Vietnam` (match-case not enabled)
+* **Size:** 133 articles (incomplete, roughly 60% of the way done)
+* **Language:** `eng` (ISO 639-2 Code)
+* **Source:** [Bowdoin College Digital Commons](https://digitalcommons.bowdoin.edu/bowdoinorient/)
+* **Collection Method:** `text extraction`, `manual collection`, `crowd-sourcing`
 
 **Workflow & Quality Assurance:**
 
@@ -94,13 +84,13 @@ The data collected for this project is derived from the publicly accessible arch
 * Removing punctuation and special characters
 * Removing stopwords - common words like `the`, `and`, `a`, etc., that do not carry significant meaning and are therefore not useful for the analysis
 
-<img width="800px" src="../img/vietnam/1.png" class="img-fluid rounded">
+<img width="800px" src="../img/vietnam/1.png" class="img-fluid rounded" alt="Screenshot of a PDF viewing software viewing a digitized scan of The Bowdoin Orient with a search query for Vietnam">
 
 *Example of an article being queried for the search term. **Source: pg. 35. v.091 PDF***
 
 Each article was cross-checked for typos and punctuation errors. Due to the poor archival and digitization quality of many of the volumes, the OCR algorithms often failed to work reliably. In these cases, manual transcription of the article text was used (via typing out each word by hand). In cases where words were not clearly discernible, as shown in the example below, a best guess was applied given the context of the preceding and following sentences. We acknowledge that this is a subjective interpretation and leads to potential inaccuracy in the data, though luckily no article had its core meaning changed as a result of this.
 
-<img width="800px" src="../img/vietnam/1-2.png" class="img-fluid rounded">
+<img width="800px" src="../img/vietnam/1-2.png" class="img-fluid rounded" alt="Screenshot showcasing poor digitization quality of a newspaper scan">
 
 *Example of poor archiving/digitization. **Source: pg. 43, v.091 PDF***
 
@@ -141,7 +131,7 @@ Each article `.txt` file contains two pieces of useful information: `@TITLE=` an
 
 There is always a newline character `\n` between the `@TITLE=` line and the rest of the document. Using the example from before, inside the file might look like this:
 
-```txt
+```
 @TITLE=Sons and Daughters: The "Berkeley" Bag
 @BODY=Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
 ```
@@ -186,7 +176,7 @@ Evaluating journalistic impartiality using digital text analysis poses significa
 
 Recognizing these limitations I chose to move forward with my analysis and plot the most frequent positive and negative words found in our corpuses articles to gain some high-level insight and reveal general trends. By plotting these, we can identify broad patterns or differences in overall language.
 
-<img width="500px" src="../img/vietnam/2.png" class="img-fluid rounded">
+<img width="500px" src="../img/vietnam/2.png" class="img-fluid rounded" alt="Positive and negative sentiment analysis bar graph">
 
 **Interpretation:** My initial reaction to seeing this graph was of surprise, in that I was expecting a far greater number of occurrences in negative words. Since the 60s and 70s were marked by student protests, it should follow that student newspaper articles about the war are also critical, right? While the sentiment analysis graph might indicate a lower number of negative occurrences than expected, it's important to approach this interpretation with caution. Sentiment analysis provides a high-level overview of the emotional tone expressed in the text but doesn't capture the entire spectrum of journalistic impartiality or reflect the complexity of the historical context. Secondly, while student protests were indeed a significant aspect of that era, not all articles written by student newspapers may have reflected critical views. Student newspapers, like any other news outlet, can represent diverse perspectives, and their coverage might have encompassed a range of opinions on the war. It's possible that some articles expressed support for the war effort, provided objective reporting, or discussed other related aspects without explicitly being critical. Factors such as story selection, source credibility, and framing of information play a crucial role in evaluating impartiality (subsequently, word choice) and cannot be solely determined by sentiment analysis.
 
@@ -200,8 +190,8 @@ Analyzing sentiment in relation to events happening in the war can help establis
 
 For example, if we notice a shift towards more negative sentiment during periods of increased military escalation or civilian casualties, it could suggest that *The Orient*'s reporting reflected a growing disillusionment or opposition to the war as the conflict progressed. Conversely, if we observe more positive sentiment during periods of peace talks or diplomatic efforts, it could indicate a more hopeful or supportive stance towards peaceful resolutions.
 
-<img width="500px" src="../img/vietnam/3.png" class="img-fluid rounded">
-<img width="500px" src="../img/vietnam/4.png" class="img-fluid rounded">
+<img width="500px" src="../img/vietnam/3.png" class="img-fluid rounded" alt="Article sentiment score bar graph">
+<img width="500px" src="../img/vietnam/4.png" class="img-fluid rounded" alt="Issue sentiment score bar graph">
 
 **Interpretation:** Plotting by article paints a very different picture when compared to plotting grouped by issue. Where individually, articles appear to differ dramatically in sentiment from one to the other (as newsprint articles tend to do), the grouped plot demonstrates an increase in negative sentiment as the war progressed.
 
@@ -221,13 +211,13 @@ Finally, it is important to note the gaps in the graph and to consider the findi
 
 #### What patterns do the length of articles about Vietnam published in *The Orient* between 1955-75 reveal about the greater Bowdoin community during the period?
 
-<img width="500px" src="../img/vietnam/5.png" class="img-fluid rounded">
+<img width="500px" src="../img/vietnam/5.png" class="img-fluid rounded" alt="Bar graph of total number of words in article by year">
 
 **Interpretation:** The initial increase in article length might indicate growing awareness and engagement within the Bowdoin community regarding the Vietnam War during the early to mid-1960s. As the conflict escalated, students and faculty members could have become more involved in discussions and debates, leading to longer and more comprehensive articles. This trend could reflect the heightened interest and a desire for in-depth analysis and information among the Bowdoin community during this period.
 
 The fluctuation in article length could also suggest evolving perspectives within the Bowdoin community as the war unfolded. The increase in length until 1967 might indicate a period of intense interest and active discourse, reflecting the changing dynamics and developments in the war. However, the subsequent tapering down of article length might indicate a shift in focus or priorities, as other issues or events captured the community's attention. It is important to acknowledge the limitations of the corpus, which is not fully finished during this time period. As a result, it is possible that the missing articles from the later years could have influenced the overall pattern, and therefore, any interpretation must be cautious and consider the potential impact of the missing data. The tapering down of article length after 1967 could also reflect a saturation of coverage or a shift in attention to other national or local events happening at the time.
 
-<img width="900px" src="../img/vietnam/6.png" class="img-fluid rounded">
+<img width="900px" src="../img/vietnam/6.png" class="img-fluid rounded" alt="Line graph of positive and negative sentiment by article">
 
 *Voyant's limited sentiment analysis capabilities, as applied to our corpus.*
 
@@ -251,19 +241,17 @@ My exploration of *The Bowdoin Orient*’s coverage of the Vietnam War revolves 
 
 In creating models of the corpus to explore these three questions concerning style, vocabulary, and actors mentioned in these articles of *The Bowdoin Orient*, I turn to the principles of content analysis as described by Gabe Ignatow and Rada Mihalcea in chapter 1 of their book “An Introduction to Text Mining.” They emphasize that content analysis primarily “adopts a quantitative, scientific approach to text analysis” that focuses on “texts themselves rather than texts’ relations to their social and historical contexts” (Ignatow & Mihalcea 2018). While some discussion of historical context is inevitable given our area of exploration, my modeling process will focus primarily on quantitatively comparing texts to one another in terms of word frequencies in order to make statements about how different the articles and volumes are from one another in terms of vocabulary usage and mention of actors. I will be doing little analysis of what the mention of certain vocabulary terms or actors means in the context of the war, and will instead focus on the consistency of vocabulary used across articles and volumes. Further explorations of variation of “actors”, or named entities such as people, countries, and organizations, between articles and volumes of the corpus will involve some Natural Language Processing, particularly the use of Named Entity Recognition, in which “statistical techniques…identify named text features such as people, organizations, and place names” (Ignatow and Mihalcea 2018). Annotating the articles of the corpus for Named Entities will allow for quantitative clustering based upon how frequently such entities appear in each article. At a broader view, this is analysis at the textual level, which Ignatow and Mihalcea identify as seeking answers about “the composition and structure of texts themselves” (Ignatow and Mihalcea 2018), which is what I aim to do by looking at variation or consistency in vocabulary and named entities.
 
-**Figure 1:** Cirrus of 155 MWF in all 133 articles of the corpus
-
-{IMAGE}
+[**Figure 1:** Cirrus of 155 MWF in all 133 articles of the corpus](https://voyant-tools.org/?corpus=7d35d0737225ca3f659e5eef1412bff5&amp;whiteList=&amp;visible=155&amp;view=Cirrus)
 
 To begin this exploration, I examined the 155 most frequent words (MFW) in the entire corpus of 133 articles in order to contextualize subsequent findings in terms of whether or not the most popular terms in the corpus as a whole appeared in certain articles or volumes more frequently. This is what Rockwell and Sinclair describe as an “interpretive tool”, a hermeneutic thing that “focus[es] on the particularity of the work and its poetic or rhetorical language” (Rockwell & Sinclair 2016). In this instance, this tool helps give a general structure to this large body of text by showing frequent words, which helps interpret what vocabulary is used when *The Bowdoin Orient* discusses the Vietnam War. This provides a baseline to compare articles, based on how much they contribute or adhere to this one interpretation of the discourse present. Upon viewing a cirrus of the 155 MFW of the corpus generated from Voyant (Figure 1), nothing about the prominent vocabulary of the corpus seems too surprising or striking. In terms of entities, Vietnam is of course mentioned the most frequently, given our search criteria and area of inquiry. “United,” “States,” and “American” also occur frequently, displaying what would be interpreted as the two sides of this war. The corpus also seems to mention the role of the “government” frequently, along with entities such as the “draft” and the “military.” The corpus still seems to be grounded in the local context of “Bowdoin”, though, mentioning “students” and “professors” of the “college” along with organizations such as “SDS” (Students for a Democratic Society, a socialist student organization) and “ROTC.” The terms “communist” and “communists” also occur frequently, indicating what the writers at *The Orient* might perceive as a threat originating from countries in “Asia” such as Vietnam and “China.” Looking at this cirrus, the shape of a discourse on the war begins to form: a story of two opposing countries, the actions of the United States's government in this international conflict, and how Bowdoin life is shaped by the ongoing war. Through using clustering models comparing stylometric differences between articles and volumes, I hope to explore how closely or not closely these separate documents adhere to this discourse, or if vast differences between articles indicate that the discourse is much more fragmented than the 155 MFW in the corpus might suggest.
 
 **Figure 2:** R Clustering Model of 133 corpus articles, color-coded by volume of origin.
 
-<img width="700px" src="../img/vietnam/7.png" class="img-fluid rounded">
+<img width="700px" src="../img/vietnam/7.png" class="img-fluid rounded" alt="Cluster dendogram chart, color-coded by volume of origin">
 
 **Figure 3:** R Clustering Model of all volumes included in the corpus.
 
-<img width="600px" src="../img/vietnam/8.png" class="img-fluid rounded">
+<img width="600px" src="../img/vietnam/8.png" class="img-fluid rounded" alt="Cluster dendogram chart of all volumes included in the corpus">
 
 The first cluster I created performs a stylometric analysis on the 133 individual articles of the corpus, color-coded by their volume of origin, using the Euclidean measure of distance (Figure 2). The Euclidean measure of distance takes the square root of the sum of all features (in this case, the frequencies of a certain word within a corpus document) in order to reduce dimensionality to a single measure, the dendrogram heights, that defines how different one document of the corpus is to other documents in the same corpus. The cluster data, formed from a document-term matrix counting the frequency of the corpus’s 155 MFW in each individual article, was fed to the ggplot function, which I extended using the ggdendrogram library. Before R determined the 155 MFW of the corpus, I removed Voyant’s determined set of 485 stop words/stop characters from the entire corpus. I chose to cluster based on the 155 MFW because Voyant only allows MFW to be counted in numbers that end in five, and I hope that 155 words would cast a wide enough net to grab a larger number of distinctive words, such as entities related to the war or words that more directly related to student life at Bowdoin. I then adjusted the size of the dendrogram using the option function to ensure that the x and y axes were extended enough to make readable labels and clearly distinguishable branches. The inspiration for this clustering analysis originated from the “Communists Spoke Differently” study, in which the authors performed a cluster analysis of speeches from Czechoslovakian presidents on the basis of the 100 MFW in the corpus. In their analysis, they found that “individual speeches of each president seem to be quite homogeneous with respect to the MFW and are clustered close to each other” (Kubát et al 2021). I wondered if a similar pattern might be observed in my cluster analysis of individual articles, in which articles from the same volume would be more likely to be clustered together. However, given that the primary purpose of this study was to find stylistic differences using the 100 MFW between different individual authors, I would expect that the clustering would not be as “neat” based on volume in my analysis given that volume is a less certain indicator of frequently used words than is the similar speaker for the different speeches in that study. Because nearly all articles have different authors from each other article, it makes sense that the style would be a bit more varied than observed in this study.
 
@@ -277,11 +265,11 @@ Before exploring the volumes which contribute the greatest number of articles to
 
 **Figure 4:** R Clustering Model of 134 corpus articles based on NER tagging, color coded by volume.
 
-<img width="600px" src="../img/vietnam/9.png" class="img-fluid rounded">
+<img width="600px" src="../img/vietnam/9.png" class="img-fluid rounded" alt="R Clustering Model of 134 corpus articles based on NER tagging, color coded by volume">
 
 **Figure 5:** R Clustering Model of Volumes based on NER tagging.
 
-<img width="600px" src="../img/vietnam/10.png" class="img-fluid rounded">
+<img width="600px" src="../img/vietnam/10.png" class="img-fluid rounded" alt="R Clustering Model of Volumes based on NER tagging.">
 
 Similarly to the first round of dendrograms, the clustering models based on individual articles and volumes were made in R using the Euclidean measure of distance. Whereas the article visualizer was formed using the ggdendrogram extension to the ggplot function, the volume visualizer was formed from the normal capabilities of the plot function, with adjustments made to the cex and hang numbers and the plot width and height for legibility. The primary difference is that instead of being formed from a document-term matrix containing the 155 MFW of the corpus in relation to each article and volume, both visualizations are formed from a matrix that catalogs the raw frequency of every word that the annotate function tagged as part of a Named Entity in each article and volume, respectively. Because calculating the frequency of Named Entities which appear as bigrams is beyond the scope of this introductory-level digital text analysis exploration, the keeper words in these matrices are all singular, lowercase words that appeared as part of a Named Entity in the annotating of the articles and volumes.
 
@@ -293,27 +281,21 @@ Overall, these models of the corpus are not entirely helpful for answering my th
 
 **Figure 6:** R Clustering Model of articles in the three largest volumes based on NER tagging.
 
-<img width="600px" src="../img/vietnam/11.png" class="img-fluid rounded">
+<img width="600px" src="../img/vietnam/11.png" class="img-fluid rounded" alt="R Clustering Model of articles in the three largest volumes based on NER tagging.">
 
 **Figure 7:** R Clustering Model of the three largest volumes in the corpus based on NER tagging.
 
-<img width="600px" src="../img/vietnam/12.png" class="img-fluid rounded">
+<img width="600px" src="../img/vietnam/12.png" class="img-fluid rounded" alt="R Clustering Model of the three largest volumes in the corpus based on NER tagging.">
 
 On this third round of dendrograms, I repeated the same process used to create the Named Entity models based on articles and volumes from the second round of dendrograms (Figures 4 and 5) on a smaller subset of the corpus that only includes volumes 096, 097, and 098 and their respective articles. These three volumes make the largest contributions to the corpus, with 69 documents originating from volume 096, 32 documents originating from volume 097, and 13 documents originating from volume 098. Viewing the article dendrogram (Figure 6) provides an overview that seems fairly similar to the Named Entity article clustering model that includes the outlier articles from small volumes (Figure 4). This provides further evidence to claim that each individual article and groupings of articles in the larger volumes in particular mention a somewhat different set of actors, given that the vast majority of branch heights seem to be over ten units at the individual level and between 25 and 50 units at the level of clusters and families. This model carries the same skewing innate to the former Named Entity model in that the raw frequencies of words included in Named Entities results in a wide range of words, not all necessarily representing an actor or entity, that might make articles seem more different from each other than they actually are qualitatively. For example, stop words were not removed from the corpus for this analysis in order to diminish interference with the annotations of Natural Language Processing, so all occurrences of the word “and” in each article and volume contribute to the frequencies and thus the distances in the visualizations. Thus, this conclusion about *The Bowdoin Orient* having fairly pronounced differences in which actors and entities its individual articles discuss in its coverage of the Vietnam War is not steadfast. Another aspect of note in the article visualizer is the outlier article at the far left that is not connected to any branch at all, perhaps indicating a large amount of difference from every other article. A close reading of this document reveals that this is likely due to a large number of capitalized sub-headlines within the article which the annotate function mistakenly labeled as Named Entities.
 
 Further, the color coding of the article clustering model suggests that there are not necessarily concrete trends between volumes in terms of the named entities mentioned; articles from all three volumes frequently occur with each other in the same clusters. However, the volume Named Entity visualizer (Figure 7) suggests a different narrative. Similar to the volume visualizer on the larger corpus (Figure 5), the dendrogram heights here are drastic, suggesting that each volume mentions selections from the set of Named Entities at noticeably different frequencies and thus that the set of actors mentioned in each volume is different. It is crucial to note, though, that this visualizer could suffer from the same issue of quantity as Figure 5. Because 097 and 098 are the smaller of the three volumes, their separation from volume 096 makes sense given the fact that volume 096 is twice the size of volume 097 and about five times the size of volume 098. This points to a weakness of the raw frequency approach: volume 096 will have higher counts of the Named Entity words solely on the basis of containing more text, which means that it will seem different from the other two volumes in this model even if the entities mentioned are actually quite similar. Overall, this model does not make apparent whether or not different actors were implicated in *Bowdoin Orient* coverage of the Vietnam War as time (the volumes) progressed. It is important to note that the disproportionate size of volume 096 (69 articles: more than half of the 134 total articles) relative to the corpus likely is responsible for skewing many of the results and renders these models difficult to use in terms of making conclusions about *Orient* Coverage as a whole.
 
-**Figure 8:** Cirrus of 155 MWF in the 69 articles in volume 096 of the corpus.
+[**Figure 8:** Cirrus of 155 MWF in the 69 articles in volume 096 of the corpus.](https://voyant-tools.org/?corpus=a7216400b5da591f5e879a1b77772b92&view=Cirrus&visible=155)
 
-{IMAGE}
+[**Figure 9:** Cirrus of 155 MWF in the 32 articles in volume 097 of the corpus.](https://voyant-tools.org/?corpus=234d464e4bebf96704d065adde2dc9a3&view=Cirrus&visible=155)
 
-**Figure 9:** Cirrus of 155 MWF in the 32 articles in volume 097 of the corpus.
-
-{IMAGE}
-
-**Figure 10:** Cirrus of 155 MWF in the 13 articles in volume 098 of the corpus.
-
-{IMAGE}
+[**Figure 10:** Cirrus of 155 MWF in the 13 articles in volume 098 of the corpus.](https://voyant-tools.org/?corpus=4fd3486aabce2beaeea61852c36ac15c&view=Cirrus&visible=155)
 
 In order to analyze how closely each of these three volumes adhered to a unified vocabulary of *The Bowdoin Orient*’s coverage of the Vietnam War, I returned to Voyant to form an additional three cirrus visualizations. Similar to Figure 1, Figures 8, 9, and 10 show the 155 MFW for volumes 096, 097, and 098 respectively, with words with greater raw frequencies in the volume appearing larger in the word cloud. Given the freedom of interpreting these visualizations left to the viewer, the reason behind visualizing the 155 MFW for each volume in this manner is to align with Rockwell and Sinclair’s description of the analysis stage of the generalized aesthetic encounter, in which “one breaks the whole into parts and studies how those parts contribute to the form of the whole” (Rockwell & Sinclair 2016). Outside of my observations, these visualizations provide the reader with the opportunity to compare terms within each cirrus to Figure 1 to see how the discourse of each volume might or might not appear in the overall discourse of the corpus based on the MFW. Since Voyant’s list of stop words was removed from the corpus when the cluster modeling was done in R, this model removes the same stop words before determining the 155 MFW in each volume. Unsurprisingly, “Vietnam” and “Bowdoin” appear to be the most prominent words across all volumes, as they are the most prominent words in the corpus as a whole. The word “American” is also mentioned with great frequency in all volumes, along with the word “government” in volumes 096 and 097; this might indicate that one discourse to which *The Bowdoin Orient* might have contributed was the commentary on the actions of the country as a whole in the Vietnam War. However, the repeated mentions of “students” across all volumes and “professors” in volumes 096 and 097 invoke the locality of Bowdoin, reminding us of the positionality of academia from which these authors are writing. In terms of further similarities between volumes 096 and 097, both seem to mention “communist” and/or “communists” with some frequency, perhaps indicating another dimension of the supposed threat at play beyond the monolith of “Vietnam”. Indeed, both volumes seem to participate in “political” discourses such as these. Further, volumes 096 and 097 both seem to make frequent mention of the “bombing” campaigns instigated by Americans in Vietnam, whereas this narrative seems to be largely absent from volume 098. Volume 098 also seems to mention “SDS”, the previously mentioned student socialist organization, with greater relative frequency than the other volume, perhaps indicating that this group was more active during the year of this volume’s publication. Interestingly, a popular term in Volume 096 is YAF, a corresponding conservative student organization, indicating that these two groups might have had different amounts of traction in different years. Also, Volume 098 is similar to 097 in that both seem to frequently mention “ROTC” and the “military”, whereas these terms seem to appear less in volume 096. However, volume 096 mentions the “draft” more frequently than the other two volumes, and all three of these terms indicate a discourse surrounding the United States Army and its recruiting initiatives. Volume 097 also includes words such as “faculty” and “department” that indicate discussing the United States military in parallel with a local focus on Bowdoin. Lastly, some of the most notable differences between the three cirrus visualizations are the first or last names of individual people, such as “Wayne” in volume 096, “Brooks” in volume 097, and “Rosenne” in volume 098. This doesn’t necessarily indicate a shift in discourse as much as different individuals who spoke about the Vietnam War in relation to Bowdoin: upon our initial review of articles during transcription, many seemed to be visit summaries of scholars who came to Bowdoin’s campus to speak of the Vietnam War as well as other topics such as “Arab” countries or “China”. Overall, these three cirrus visualizations provide some evidence to claim that vocabulary in *The Bowdoin Orient*’s discourse on the Vietnam War stayed relatively consistent, with moderate fluctuations likely being due to differences at the level of individual article topics. No words that describe any sort of affective state toward the war (such as positivity or disgust) obviously present themselves within the cirrus visualization, which makes sense for a journalistic publication, which typically strives for a measure of objectivity. Another theory as to why remarkable, unexpected vocabulary does not become immediately apparent in the visualization, especially in terms of the largest words being the most predictable, is that the discourse surrounding the Vietnam War in *The Bowdoin Orient* varies so greatly from article to article aside from the bare-bones mentions of Vietnam, the military, and Bowdoin that certain terms used much in one article might not appear in the overall cirrus visualizations.
 
@@ -343,7 +325,7 @@ For researchers, topic modeling can be given more structure in the form of direc
 
 **Visualization 1:** Below is a topic modeling proportion bar graph across all 72 articles in volume 96 of *The Bowdoin Orient*, created in R. The k value was 10 and the threshold was 3.
 
-<img width="800px" src="../img/vietnam/13.png" class="img-fluid rounded">
+<img width="800px" src="../img/vietnam/13.png" class="img-fluid rounded" alt="Topic modeling proportion bar graph across all 72 articles in volume 96 of The Bowdoin Orient">
 
 The articles or documents are displayed on the x-axis, ordered by the month not the year in which they were published. In this case, R sorted the documents based on the volume which are all the same, and then the month. So articles from 1966 end up near the end of the graph because the academic year starts in the fall or months later in the year (10, 11, 12). In contrast, the beginning of the plot on the x-axis has articles from 1967 since this would be the spring term of the academic year which would commence in the early portion of the year (1, 2, 3, etc.). On the Y axis is the relative proportion of the 10 topics which R has proposed that is in each article. The legend on the right side of the graph displays all the 15 words which R has determined to compose a topic.
 
@@ -392,8 +374,8 @@ At this point in my hermeneutic analysis, I would like to take a step back and r
 
 In order to answer the question about what other ideas collocated with the topics I found in my first visualizations I will use the Voyant tool TermsBerry. I have included a link to Voyant’s explanation of how the TermsBerry tool works here. I have embedded the TermsBerry tool from Voyant below so you can investigate different terms. For my second set of visualizations, I will focus on words prominent in two topics derived from R.
 
-<img width="600px" src="../img/vietnam/14.png" class="img-fluid rounded">
-<img width="600px" src="../img/vietnam/15.png" class="img-fluid rounded">
+<img width="600px" src="../img/vietnam/14.png" class="img-fluid rounded" alt="Voyant TermsBerry visualization 1">
+<img width="600px" src="../img/vietnam/15.png" class="img-fluid rounded" alt="Voyant TermsBerry visualization 2">
 
 ### Interpretation
 
@@ -407,8 +389,8 @@ To answer my final research question about the topics which *The Orient* may hav
 
 **Visualization 3:** Below is a topic modeling proportion bar graph of selected articles in volume 96 of *The Bowdoin Orient*, created in R 4.2. The k value was 10 and the threshold was 3. *To reproduce this graph use the file "viz13_SM" in the deliverables folder named Maharaj
 
-<img width="600px" src="../img/vietnam/16.png" class="img-fluid rounded">
-<img width="600px" src="../img/vietnam/17.png" class="img-fluid rounded">
+<img width="600px" src="../img/vietnam/16.png" class="img-fluid rounded" alt="Topic modeling proportion bar graph of selected articles in volume 96 of The Bowdoin Orient">
+<img width="600px" src="../img/vietnam/17.png" class="img-fluid rounded" alt="Topic modeling proportion bar graph of selected articles in volume 96 of The Bowdoin Orient">
 
 ### Interpretation
 
