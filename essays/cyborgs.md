@@ -12,7 +12,7 @@ essayurl: https://students.bowdoin.edu/bowdoin-review/technology/cyborgs-walk-am
 
 ---
 
-<img width="100%" class="rounded img-fluid mx-auto d-block" src="../img/cyborgs/chip.jpg" >
+<img width="100%" class="rounded img-fluid mx-auto d-block" src="../img/cyborgs/chip.jpg" alt="Image of microchip and X-Ray image with a chip shown installed in a human hand">
 
 **The lines separating humans and technology are blurring. Should we embrace it?**
 
