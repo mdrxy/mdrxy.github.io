@@ -25,7 +25,7 @@ Your organization must have an approved tax status under "Organization Settings"
 1. Navigate to Zoom's [download page](https://zoom.us/download).
 2. Copy the appropriate download URL, writing it down somewhere for later. I'm deploying to Apple Silicon, so I chose the ARM distribution.
 
-    ***CAUTION:*** "if you decide to use a developer-hosted link to a package, make sure that the package doesn’t get updated by the developer in-place." As noted in [Apple's documentation](https://support.apple.com/en-nz/guide/apple-business-essentials/axmeeed343b0/web), if you are in a position to host the package on your own server, you should consider doing so in order to prevent any changes upstream from affecting your deployment.
+    {% include warning.html content="\"if you decide to use a developer-hosted link to a package, make sure that the package doesn’t get updated by the developer in-place.\" As noted in [Apple's documentation](https://support.apple.com/en-nz/guide/apple-business-essentials/axmeeed343b0/web), if you are in a position to host the package on your own server, you should consider doing so in order to prevent any changes upstream from affecting your deployment." %}
 
 3. In a new browser tab, test the download URL. Pressing enter should immediately download/prompt you to download the `zoomusInstallerFull.pkg`. Per [Apple](https://support.apple.com/en-nz/guide/apple-business-essentials/axmeeed343b0/web), "the package must begin to download when the link is used. The link can’t lead to a webpage with another link."
 4. In terminal, run `shasum -a 256 zoomusInstallerFull.pkg`. The output should look something like the following. We want to copy the long string of numbers and letters, *excluding* the filename.
@@ -58,7 +58,7 @@ Your organization must have an approved tax status under "Organization Settings"
 
 9.  Open `Preview.app`, and in the macOS menu bar, select "New from Clipboard" (or <kbd>command</kbd> + <kbd>n</kbd>). Save the file as a `.png` somewhere on your disk.
 
-    ***NOTE:*** per [Apple's documentation](https://support.apple.com/en-nz/guide/apple-business-essentials/axm8e397e77d/1.0/web/1.0#axma08a8ff5a), icons must be either a `.icns`, `.jpeg`, or `.png` file, no larger than 1024x1024 and under 10 MB.
+    {% include note.html content="per [Apple's documentation](https://support.apple.com/en-nz/guide/apple-business-essentials/axm8e397e77d/1.0/web/1.0#axma08a8ff5a), icons must be either a `.icns`, `.jpeg`, or `.png` file, no larger than 1024x1024 and under 10 MB." %}
 
 10. In [Apple Business Essentials (ABE)](https://business.apple.com), under the apps tab, select "New Package". The fields are to be filled out as follows:
 
