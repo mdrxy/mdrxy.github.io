@@ -2,4 +2,4 @@
 
 ![Personal Résume Website](/img/page.png)
 
-[Built using TechFolios](https://techfolios.github.io).
+[Based on TechFolios](https://techfolios.github.io), modified by yours truly.
