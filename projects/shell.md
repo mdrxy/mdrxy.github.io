@@ -2,7 +2,7 @@
 layout: project
 type: project
 draft: false
-image: img/shell.jpg
+image: img/shell.png
 title: "Unix Shell"
 date: 2024
 published: true
