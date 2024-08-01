@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let artistName;
     let trackUrl;
 
+    // Source: https://codepen.io/virpo/pen/YzKWWPW
     const eqAnimation = `
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <rect class="eq-bar eq-bar--1" x="4" y="4" width="3.7" height="8" />
@@ -19,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => response.json())
             .then(data => {
                 if (data.track && data.track.duration) {
-                    console.log(data.track.duration);
                     return parseInt(data.track.duration, 10);
                 } else {
                     return null;
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     trackUrl = currentTrack.url || 'https://www.last.fm/';
 
                     const artistUrl = trackUrl.replace(/\/_\/[^\/]+$/, '/') || 'https://www.last.fm/';
-                    const prefixText = (currentTrack['@attr'] && currentTrack['@attr'].nowplaying)
+                    const prefixText = (currentTrack['@attr'].nowplaying)
                         ? "<b>Currently Listening To:</b>"
                         : "Played Recently:";
 
@@ -69,7 +69,8 @@ document.addEventListener('DOMContentLoaded', function () {
             if (trackDuration && trackDuration > 0) {
                 pollInterval = trackDuration;
             }
-            console.log('Polling in', pollInterval, 'ms');
+
+            // console.log('Polling in', pollInterval, 'ms');
             setTimeout(pollTrackInfo, pollInterval);
         });
     }
