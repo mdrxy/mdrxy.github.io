@@ -1,38 +1,78 @@
 document.addEventListener('DOMContentLoaded', function () {
     const apiKey = 'c1797de6bf0b7e401b623118120cd9e1';
     const username = 'mdrxy';
-    const apiUrl = `https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&limit=1&api_key=${apiKey}&format=json`;
+    let currentTrack;
+    let trackName;
+    let artistName;
+    let trackUrl;
+
+    const eqAnimation = `
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <rect class="eq-bar eq-bar--1" x="4" y="4" width="3.7" height="8" />
+                        <rect class="eq-bar eq-bar--2" x="10.2" y="4" width="3.7" height="16" />
+                        <rect class="eq-bar eq-bar--3" x="16.3" y="4" width="3.7" height="11" />
+                        </svg>
+                        `;
+
+    function fetchTrackInfo(trackName, artistName) {
+        return fetch(`https://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=${apiKey}&artist=${artistName}&track=${trackName}&format=json`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.track && data.track.duration) {
+                    console.log(data.track.duration);
+                    return parseInt(data.track.duration, 10);
+                } else {
+                    return null;
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching song data:', error);
+                return null;
+            });
+    }
 
     function fetchNowListening() {
-        fetch(apiUrl)
+        return fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&limit=1&api_key=${apiKey}&format=json`)
             .then(response => response.json())
             .then(data => {
                 const recentTracks = data.recenttracks.track;
                 if (recentTracks && recentTracks.length > 0) {
-                    const currentTrack = recentTracks[0];
-                    const trackName = currentTrack.name || 'Unknown track';
-                    const artistName = currentTrack.artist['#text'] || 'Unknown artist';
-                    const trackUrl = currentTrack.url || 'https://www.last.fm/';
+                    currentTrack = recentTracks[0];
+                    trackName = currentTrack.name || 'Unknown track';
+                    artistName = currentTrack.artist['#text'] || 'Unknown artist';
+                    trackUrl = currentTrack.url || 'https://www.last.fm/';
 
-                    // Get the artist URL by removing the track part of the URL
                     const artistUrl = trackUrl.replace(/\/_\/[^\/]+$/, '/') || 'https://www.last.fm/';
                     const prefixText = (currentTrack['@attr'] && currentTrack['@attr'].nowplaying)
-                        ? "Currently Listening To:"
+                        ? "<b>Currently Listening To:</b>"
                         : "Played Recently:";
 
-                    document.getElementById('lastfm').innerHTML = `${prefixText} <a href="${trackUrl}" target="_blank">${trackName}</a> by <a href="${artistUrl}" target="_blank">${artistName}</a>`;
+                    const eqAnimationHTML = (prefixText === "<b>Currently Listening To:</b>") ? eqAnimation : "";
+                    document.getElementById('lastfm').innerHTML = `${prefixText} <a href="${trackUrl}" target="_blank">${trackName}</a> by <a href="${artistUrl}" target="_blank">${artistName}</a> ${eqAnimationHTML}`;
+
+                    return fetchTrackInfo(trackName, artistName);
                 } else {
                     document.getElementById('lastfm').textContent = `Last.fm returned a malformed response :(`;
+                    return null;
                 }
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
                 document.getElementById('lastfm').textContent = `Error fetching data from Last.fm`;
+                return null;
             });
     }
 
-    fetchNowListening();
+    function pollTrackInfo() {
+        fetchNowListening().then(trackDuration => {
+            let pollInterval = 30000;
+            if (trackDuration && trackDuration > 0) {
+                pollInterval = trackDuration;
+            }
+            console.log('Polling in', pollInterval, 'ms');
+            setTimeout(pollTrackInfo, pollInterval);
+        });
+    }
 
-    // Poll every 30 seconds
-    setInterval(fetchNowListening, 30000);
+    pollTrackInfo();
 });
