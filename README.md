@@ -13,8 +13,10 @@
 
 ## Local Development
 
-[Refer to Jekyll's Quickstart for macOS](https://jekyllrb.com/docs/installation/macos/)
+[Refer to Jekyll's Quickstart for macOS](https://jekyllrb.com/docs/installation/macos/). With dependencies installed, `cd` to the site's folder and run:
 
 ```sh
 bundle exec jekyll serve
 ```
+
+and then navigate to the server address provided (usually [http://127.0.0.1:4000/](http://127.0.0.1:4000/)) to preview local changes.
