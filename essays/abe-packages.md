@@ -18,7 +18,7 @@ Apple's [documentation on deploying custom packages](https://support.apple.com/e
 
 Your organization must have an approved tax status under "Organization Settings" at [business.apple.com](https://business.apple.com). Once received, turn on custom apps:
 
-<img width="66%" class="rounded img-fluid d-block" src="../img/abe-packages/abe-tax.png" alt="Apple Business Essentials Organization Settings page showcasing tax status and custom apps settings">
+<img width="66%" class="rounded img-fluid d-block" src="/img/abe-packages/abe-tax.png" alt="Apple Business Essentials Organization Settings page showcasing tax status and custom apps settings">
 
 ## [zoom.us](https://zoom.us/)
 
@@ -42,7 +42,7 @@ Your organization must have an approved tax status under "Organization Settings"
 
 5. Follow through with the package installation on your machine/a testing machine. With the app open, write down the app version. In Zoom's case, it is written at the bottom of the login page. (If it isn't, you can use the app's "about" pane. With the app open, select its name in the macOS menu bar and click "About Zoom Workplace")
 
-    <img width="66%" class="rounded img-fluid d-block" src="../img/abe-packages/zoom-about-panel.png" alt="zoom.us about panel">
+    <img width="66%" class="rounded img-fluid d-block" src="/img/abe-packages/zoom-about-panel.png" alt="zoom.us about panel">
 
 6. In Finder, open the applications folder and find `zoom.us`. Right click and select "Show Package Contents". In the `Contents` folder, open `Info.plist`. We're looking for the `CFBundleIdentifier`'s value, which in this case, is `us.zoom.xos`. Write this down.
 
@@ -54,7 +54,7 @@ Your organization must have an approved tax status under "Organization Settings"
 7. Back in Finder, right click `zoom.us` and press "Get Info" (alternatively, press <kbd>command</kbd> + <kbd>i</kbd>).
 8. Click the small app icon so that it is selected and then press <kbd>command</kbd> + <kbd>c</kbd> to copy the icon.
 
-    <img width="33%" class="rounded img-fluid d-block" src="../img/abe-packages/zoom-info-panel.png" alt="zoom.us Finder Get Info panel">
+    <img width="33%" class="rounded img-fluid d-block" src="/img/abe-packages/zoom-info-panel.png" alt="zoom.us Finder Get Info panel">
 
 9.  Open `Preview.app`, and in the macOS menu bar, select "New from Clipboard" (or <kbd>command</kbd> + <kbd>n</kbd>). Save the file as a `.png` somewhere on your disk.
 
@@ -91,7 +91,7 @@ To get set up for screen sharing:
 
 Back in ABE, you can view app [installation status](https://support.apple.com/en-nz/guide/apple-business-essentials/axme7df3fd13/1.0/web/1.0) on assigned devices:
 
-<img width="100%" class="rounded img-fluid d-block" src="../img/abe-packages/abe-status.png" alt="App install status list in Apple Business Essentials">
+<img width="100%" class="rounded img-fluid d-block" src="/img/abe-packages/abe-status.png" alt="App install status list in Apple Business Essentials">
 
 ## [Google Chrome](https://chromeenterprise.google/download/)
 
@@ -101,7 +101,7 @@ The process for deploying Chrome's package is more or less the same as Zoom's. H
 2. Open the downloads pane
 3. Right click your download and select "Copy Download Link"
 
-<img width="66%" class="rounded img-fluid d-block" src="../img/abe-packages/abe-chrome.png" alt="Firefox downloads menu">
+<img width="66%" class="rounded img-fluid d-block" src="/img/abe-packages/abe-chrome.png" alt="Firefox downloads menu">
 
 Otherwise, the installation follows in the same order as Zoom. Follow steps #1-11, changing the names and icon as needed.
 

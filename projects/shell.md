@@ -3,7 +3,7 @@ layout: project
 type: project
 draft: false
 image: img/shell.png
-title: "Unix Shell"
+title: "UNIX Shell"
 date: 2024
 published: true
 labels:
@@ -11,7 +11,8 @@ labels:
   - Job Control
   - Signal Handling
   - Process Management
+  - Command Line
 
-summary: "Shell program that supports Unix-style job control written in C"
+summary: "Shell program that supports UNIX-style job control written in C"
 projecturl: https://tildesites.bowdoin.edu/~sbarker/teaching/courses/systems/24spring/lab6.php
 ---

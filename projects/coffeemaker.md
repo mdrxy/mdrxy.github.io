@@ -14,6 +14,6 @@ labels:
   - HTML/CSS/JavaScript
   - Semantic UI
 
-summary: "Collaborative full-stack web application project emulating a Coffee Shop's back-office"
+summary: "Collaborative full-stack web application project emulating a coffee shop's back-office"
 projecturl: https://github.com/mdrxy/coffeemaker
 ---
