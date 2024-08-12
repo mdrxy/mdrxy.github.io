@@ -13,6 +13,6 @@ labels:
   - Process Management
   - Command Line
 
-summary: "Shell program that supports UNIX-style job control written in C"
+summary: "Shell program that supports UNIX-style job control written in C."
 projecturl: https://tildesites.bowdoin.edu/~sbarker/teaching/courses/systems/24spring/lab6.php
 ---
