@@ -30,6 +30,23 @@
   },
   "work": [
     {
+      "name": "Teens to Trails",
+      "company": "Teens to Trails",
+      "url": "https://teenstotrails.org",
+      "website": "https://teenstotrails.org",
+      "location": "Brunswick, ME",
+      "description": "Nonprofit connecting Maine teens to the outdoors",
+      "summary": "Nonprofit connecting Maine teens to the outdoors",
+      "position": "Systems Integration Engineer",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-09",
+      "highlights": [
+        "Engineered and wrote Node.js and Python scripts for serverless integrations & automations, leveraging APIs to streamline workflows and reduce manual data entry tasks that saved 6 hours weekly",
+        "Spearheaded the implementation of Apple Business Essentials for Zero-Touch MDM Deployment of new machines, automating setup with federated authentication and security-first configuration profiles and apps, reducing setup time by 60%",
+        "Designed and rolled out a project management tool, leading training sessions and providing ongoing support, resulting in a 95% adoption rate and improved cross-departmental collaboration and planning"
+      ]
+    },
+    {
       "name": "WBOR 91.1 FM",
       "company": "WBOR 91.1 FM",
       "url": "https://wbor.org",
@@ -41,15 +58,12 @@
       "startDate": "2021-09-01",
       "endDate": "Present",
       "highlights": [
+        "Built wbor.org. Designed and implemented back-end audio streaming server and metadata distribution channels",
+        "Re-engineered broadcast signal chain with modern audio compression codecs optimized for web delivery",
+        "Oversee 200+ student & community volunteer DJs, supervise station broadcast equipment and facilities",
+        "Used Confluence to write 32,5000 words of operational documentation (best practices, admin tool guidelines, software maintenance & troubleshooting, recurring processes & procedures, organizational philosophy)",
         "Oversee 200+ student & community DJs, supervise station broadcast equipment and facilities",
-        "Write detailed engineering documentation of signal-chain, inventory, and internal tools using Confluence",
-        "Maintain EAS (Emergency Alert System) logs and routine maintenance, ensuring compliance with FEMA and state regulations",
         "Compile quarterly reports to be submitted on behalf of Bowdoin College to the Federal Communications Commission",
-        "Built current website, implementing a high performance now-playing websocket between client and stream",
-        "Back-end systems integration and implementation of metadata distribution channels to third-party platforms such as TuneIn Radio and Apple Music",
-        "Selected and maintain the station's online stream-hosting platform",
-        "Secured all online accounts and profiles by implementing rigorous standards, with the help of a central password manager that I chose and set up (1Password Enterprise - SSO integration with Okta)",
-        "Built and refined onboarding and application forms for new volunteers",
         "Engage 100% of the 1,100+ recorded WBOR Alumni"
       ]
     },
@@ -65,10 +79,9 @@
       "startDate": "2022-01-01",
       "endDate": "Present",
       "highlights": [
-        "Assist members of 2,500-person campus community with technical requests",
-        "Generated thorough records and ticketing via the Teamdynamix ITSM system",
-        "Utilize Jamf Pro Apple management software to manage 4,500+ iPad and Mac devices",
-        "Assist in event production and provide technical support for various campus events (graduation, commencement)"
+        "Provided front-line support to a 2,500-member campus, managing 4,500+ iPad and Mac devices with Jamf Pro",
+        "Utilized TeamDynamix ITSM to generate and maintain detailed ticket records, ensuring accurate documentation",
+        "Gained hands-on experience with critical back-end systems, including 1Password, Okta, and Workday"
       ]
     },
     {
@@ -111,7 +124,7 @@
       "position": "Community Immersion Orientation Trip Leader",
       "url": "https://www.bowdoin.edu/mckeen-center/",
       "startDate": "2022-09-01",
-      "endDate": "2023-09-01",
+      "endDate": "2024-09-01",
       "summary": "Led groups of students in community philanthropy at Maine's island communities",
       "highlights": [
         "Engaged in work with the Maine Coast Heritage Trust, the island schools, Watermans Community Center, Vinalhaven Eldercare"
@@ -196,20 +209,20 @@
   ],
   "skills": [
     {
-      "name": "Frontend",
-      "keywords": ["HTML", "CSS/Bootstrap", "Javascript"]
+      "name": "Languages / Technologies",
+      "keywords": ["Python", "Java/JavaScript", "C", "UNIX shell scripting", "HTML/CSS", "JSON", "RESTful APIs"]
     },
     {
-      "name": "Backend",
-      "keywords": ["Java", "Python", "Flask", "JUnit"]
+      "name": "Tools & Frameworks",
+      "keywords": ["Atlassian Cloud Suite (Jira, Confluence)", "Node.js", "Git", "Docker", "VPS deployment", "Jamf Pro", "Teamdynamix ITSM"]
     },
     {
-      "name": "Devops",
-      "keywords": ["Git", "GitHub Actions", "Docker", "G Cloud", "Confluence"]
+      "name": "Database Management",
+      "keywords": ["MySQL", "Postgres", "SQLite", "AirTable"]
     },
     {
-      "name": "Collaboration Tools",
-      "keywords": ["Office Suite", "Atlassian Cloud", "Slack"]
+      "name": "Development Practices",
+      "keywords": ["Test-Driven Development", "Continuous Integration/Continuous Deployment", "Object Oriented Programming"]
     }
   ],
   "interests": [
