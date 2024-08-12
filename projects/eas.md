@@ -2,7 +2,7 @@
 layout: project
 type: project
 draft: false
-image: img/cache.jpg
+image: img/eas.png
 title: "Emergency Alert System ENDEC Logger"
 date: 2024
 published: true
