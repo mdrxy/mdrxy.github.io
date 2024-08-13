@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
         return fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&limit=1&api_key=${apiKey}&format=json`)
             .then(response => response.json())
             .then(data => {
-                console.log(data);
                 const recentTracks = data.recenttracks.track;
                 if (recentTracks && recentTracks.length > 0) {
                     currentTrack = recentTracks[0];
