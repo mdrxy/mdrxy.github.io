@@ -216,7 +216,7 @@
     },
     {
       "name": "Tools & Frameworks",
-      "keywords": ["Atlassian Cloud Suite (Jira, Confluence)", "Node.js", "Git", "Docker", "VPS deployment", "Jamf Pro", "Teamdynamix ITSM"]
+      "keywords": ["Atlassian Cloud Suite (Jira, Confluence)", "Node.js", "Express", "Git", "Docker", "VPS deployment", "Jamf Pro", "Teamdynamix ITSM"]
     },
     {
       "name": "Database Management",
