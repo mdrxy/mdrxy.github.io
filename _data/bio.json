@@ -229,19 +229,22 @@
   ],
   "interests": [
     {
-      "name": "Photography & Filmmaking"
+      "name": "photography"
     },
     {
-      "name": "Rowing"
+      "name": "filmmaking"
     },
     {
-      "name": "Digital privacy"
+      "name": "rowing"
     },
     {
-      "name": "Freeform radio"
+      "name": "digital privacy"
     },
     {
-      "name": "Personal OPSEC"
+      "name": "freeform radio"
+    },
+    {
+      "name": "personal OPSEC"
     }
   ],
   "meta": {
