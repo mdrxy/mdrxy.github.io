@@ -37,13 +37,13 @@
       "location": "Brunswick, ME",
       "description": "Nonprofit connecting Maine teens to the outdoors",
       "summary": "Nonprofit connecting Maine teens to the outdoors",
-      "position": "Systems Integration Engineer",
+      "position": "Systems Integration Engineer - Technical Intern",
       "startDate": "2024-06-01",
       "endDate": "2024-08-09",
       "highlights": [
-        "Engineered and wrote Node.js and Python scripts for serverless integrations & automations, leveraging APIs to streamline workflows and reduce manual data entry tasks that saved 6 hours weekly",
-        "Spearheaded the implementation of Apple Business Essentials for Zero-Touch MDM Deployment of new machines, automating setup with federated authentication and security-first configuration profiles and apps, reducing setup time by 60%",
-        "Designed and rolled out a project management tool, leading training sessions and providing ongoing support, resulting in a 95% adoption rate and improved cross-departmental collaboration and planning"
+        "Designed and implemented custom JavaScript integrations, automating accounting tasks between Airtable and QuickBooks using their APIs, reducing manual data entry by over six hours weekly",
+        "Spearheaded the implementation of Apple Business Essentials for Zero-Touch MDM Deployment for new company machines, automating setup with federated authentication and security-first configuration profiles and apps, reducing setup time by 65%",
+        "Leveraged Waterfall & Kanban methodologies to design, implement, and provide ongoing systems training support for an improved cross departmental project planning tool, resulting in a 95% adoption rate"
       ]
     },
     {
@@ -58,13 +58,12 @@
       "startDate": "2021-09-01",
       "endDate": "Present",
       "highlights": [
-        "Built wbor.org. Designed and implemented back-end audio streaming server and metadata distribution channels",
-        "Re-engineered broadcast signal chain with modern audio compression codecs optimized for web delivery",
-        "Oversee 200+ student & community volunteer DJs, supervise station broadcast equipment and facilities",
-        "Used Confluence to write 32,5000 words of operational documentation (best practices, admin tool guidelines, software maintenance & troubleshooting, recurring processes & procedures, organizational philosophy)",
-        "Oversee 200+ student & community DJs, supervise station broadcast equipment and facilities",
+        "Oversee 220+ student & community volunteer DJs & supervise broadcast equipment and facilities",
+        "Wrote 32500+ words of documentation (best practices, admin tool guidelines, software maintenance & troubleshooting, recurring processes & procedures) and created adaptable design diagrams",
+        "Built and maintained the station’s website. Integrated features such as real-time program schedules, DJ profiles, and automated song logging. Alongside this, deployed and configured a new off-site audio streaming server, increasing listener capacity and reducing downtime by 30%",
         "Compile quarterly reports to be submitted on behalf of Bowdoin College to the Federal Communications Commission",
-        "Engage 100% of the 1,100+ recorded WBOR Alumni"
+        "Engage 100% of the 1,100+ recorded WBOR Alumni",
+        "Implemented a Twilio-powered “Text the DJ” feature, enabling real-time listener interaction with DJs during live broadcasts. Increased listener engagement, resulting in over 500 texts per week"
       ]
     },
     {
@@ -75,13 +74,15 @@
       "location": "Brunswick, ME",
       "description": "Campus IT services",
       "summary": "Campus IT services",
-      "position": "Student Technical Support Representative",
+      "position": "Frontline A/V Technician",
       "startDate": "2022-01-01",
       "endDate": "Present",
       "highlights": [
-        "Provided front-line support to a 2,500-member campus, managing 4,500+ iPad and Mac devices with Jamf Pro",
-        "Utilized TeamDynamix ITSM to generate and maintain detailed ticket records, ensuring accurate documentation",
-        "Gained hands-on experience with critical back-end systems, including 1Password, Okta, and Workday"
+        "Led audio-visual tech setup and execution for high-profile events, such as graduation and guest speakers",
+        "Partnered with event stakeholders to translate technical requirements, swiftly troubleshooting and resolving technical issues in real-time under pressure",
+        "Used TeamDynamix ITSM to generate/maintain detailed ticket records and update documentation",
+        "Mentored and trained new technicians alongside the Event Production Coordinator",
+        "Improved venue reliability and uptime by implementing rigorous weekly operational equipment checklists"
       ]
     },
     {
@@ -191,11 +192,15 @@
         "Foundations of Computer Systems",
         "Human-Computer Interaction",
         "Artificial Intelligence",
+        "Deep Learning",
+        "Computer Vision",
         "Data Structures",
         "Digital Text Analysis",
+        "Data Science",
         "Cognitive Architecture",
         "Theory of Computation",
-        "Tech and the Common Good"
+        "Tech and the Common Good",
+        "Social and Economic Networks"
       ]
     }
   ],
@@ -212,19 +217,19 @@
   "skills": [
     {
       "name": "Languages / Technologies",
-      "keywords": ["Python", "Java/JavaScript", "C", "UNIX shell scripting", "HTML/CSS", "JSON", "RESTful APIs"]
+      "keywords": ["Python", "Java", "C", "UNIX scripting", "HTML/CSS/JavaScript", "JSON", "RESTful APIs"]
     },
     {
       "name": "Tools & Frameworks",
-      "keywords": ["Atlassian Cloud Suite (Jira, Confluence)", "Node.js", "Express", "Git", "Docker", "VPS deployment", "Jamf Pro", "Teamdynamix ITSM"]
+      "keywords": ["Atlassian Cloud Suite (Jira, Confluence)", "Node.js", "Express.js", "Git", "Docker", "VPS deployment", "Jamf Pro", "Teamdynamix ITSM"]
     },
     {
       "name": "Database Management",
-      "keywords": ["MySQL", "Postgres", "SQLite", "AirTable"]
+      "keywords": ["MySQL", "Postgres", "SQLite", "Airtable", "Google Cloud Datastore"]
     },
     {
       "name": "Development Practices",
-      "keywords": ["Test-Driven Development", "Continuous Integration/Continuous Deployment", "Object Oriented Programming"]
+      "keywords": ["Test-Driven Development", "Continuous Integration/Continuous Deployment (CI/CD)", "Object Oriented Programming (OOP)", "Agile"]
     }
   ],
   "interests": [
