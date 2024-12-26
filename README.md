@@ -21,3 +21,11 @@ bundle exec jekyll serve
 ```
 
 Then, navigate to the server address provided (usually [http://localhost:4000/](http://localhost:4000/)) to preview local changes.
+
+## TODO
+
+- [Guest book](https://indieweb.org/Webmention)
+- Dark mode
+- Use WAVE to find potential accessibility issues on different pages on the site
+- Use PageSpeed Insights to check the speed
+- [Now page](https://nownownow.com/about)
