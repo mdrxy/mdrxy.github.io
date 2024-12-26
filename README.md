@@ -9,7 +9,8 @@
 * [Open embedded links using target="_blank" by default](https://github.com/keithmifsud/jekyll-target-blank)
 * [Fixed to display long names](https://github.com/techfolios/template/issues/13)
 * [Use `page.projecturl` only if it is defined - `page.url` otherwise](https://github.com/mdrxy/mdrxy.com/commit/e8510866c52a1c1e305b2d5afe3129243d6aab1c)
-* Amongst other small tweaks
+
+Amongst other small tweaks...
 
 ## Local Development
 
@@ -19,4 +20,4 @@
 bundle exec jekyll serve
 ```
 
-and then navigate to the server address provided (usually [http://127.0.0.1:4000/](http://127.0.0.1:4000/)) to preview local changes.
+Then, navigate to the server address provided (usually [http://localhost:4000/](http://localhost:4000/)) to preview local changes.
