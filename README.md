@@ -24,8 +24,8 @@ Then, navigate to the server address provided (usually [http://localhost:4000/](
 
 ## TODO
 
-- [Guest book](https://indieweb.org/Webmention)
-- Dark mode
-- Use WAVE to find potential accessibility issues on different pages on the site
-- Use PageSpeed Insights to check the speed
-- [Now page](https://nownownow.com/about)
+* [Guest book](https://indieweb.org/Webmention)
+* Dark mode toggle
+* Use WAVE to find potential accessibility issues on different pages on the site
+* Use PageSpeed Insights to check the speed and resolve any slow loading
+* [Now page](https://nownownow.com/about)

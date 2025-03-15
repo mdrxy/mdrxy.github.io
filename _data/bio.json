@@ -37,13 +37,13 @@
       "location": "Brunswick, ME",
       "description": "Nonprofit connecting Maine teens to the outdoors",
       "summary": "Nonprofit connecting Maine teens to the outdoors",
-      "position": "Systems Integration Engineer - Technical Intern",
-      "startDate": "2024-06-01",
-      "endDate": "2024-08-09",
+      "position": "Systems Integration Engineer Intern",
+      "startDate": "2024",
+      "endDate": "Present",
       "highlights": [
-        "Designed and implemented custom JavaScript integrations, automating accounting tasks between Airtable and QuickBooks using their APIs, reducing manual data entry by over six hours weekly",
-        "Spearheaded the implementation of Apple Business Essentials for Zero-Touch MDM Deployment for new company machines, automating setup with federated authentication and security-first configuration profiles and apps, reducing setup time by 65%",
-        "Leveraged Waterfall & Kanban methodologies to design, implement, and provide ongoing systems training support for an improved cross departmental project planning tool, resulting in a 95% adoption rate"
+        "Designed and implemented Express.js integrations to automate accounting tasks using Airtable and QuickBooks APIs; reduced manual data entry by over six hours weekly",
+        "Leveraged Waterfall & Kanban methodologies to design, build, and provide ongoing training for a cross departmental project planning tool, resulting in org-wide adoption",
+        "Led recommendation and implementation of Apple Business Essentials for Zero-Touch MDM Deployment for new company devices, automating setup with federated authentication and security-first configuration profiles and apps, reducing setup time by over 50%"
       ]
     },
     {
@@ -55,15 +55,19 @@
       "description": "Noncommercial community public radio station",
       "summary": "Noncommercial community public radio station",
       "position": "Station Manager & TechOps Lead",
-      "startDate": "2021-09-01",
+      "startDate": "2022",
       "endDate": "Present",
       "highlights": [
-        "Oversee 220+ student & community volunteer DJs & supervise broadcast equipment and facilities",
-        "Wrote 32500+ words of documentation (best practices, admin tool guidelines, software maintenance & troubleshooting, recurring processes & procedures) and created adaptable design diagrams",
-        "Built and maintained the station’s website. Integrated features such as real-time program schedules, DJ profiles, and automated song logging. Alongside this, deployed and configured a new off-site audio streaming server, increasing listener capacity and reducing downtime by 30%",
+        "Supervise 200+ student and community DJs while enforcing FCC guidelines, managing day-to-day operations and schedule, and coordinating delivery of live broadcasting to 30,000+ online & FM listeners",
+        "Modernized the station's tech stack by building a new website, integrating real-time WebSocket streaming, and automating metadata distribution to third-party platforms (TuneIn, Apple Music, Last.fm)",
+        "Implemented a Twilio-powered \"Text the DJ\" feature and off-site audio streaming server, resulting in a 30% reliability improvement and 500+ weekly texts from listeners",
+        "Configured and maintained network infrastructure for broadcast equipment, including TCP/IP-based audio streaming, DHCP assignments, DNS config, and REST API integrations for automation and monitoring",
+        "Built and maintained the <a href=\"https://wbor.org\" target=\"blank\">station's website</a>. Integrated features such as real-time program schedules, DJ profiles, and automated song logging. Alongside this, deployed and configured a new off-site audio streaming server, increasing listener capacity and reducing downtime by 30%",
+        "Wrote 40000+ words of documentation (best practices, admin tool guidelines, software maintenance & troubleshooting, recurring processes & procedures) and created adaptable design diagrams",
+        "Principle project manager and developer for numerous microservices: <a href=\"github.com/WBOR-91-1-FM/\" target=\"blank\">github.com/WBOR-91-1-FM/</a>",
+        "Strengthened station security by implementing 1Password Enterprise with SSO, streamlining account management and preserving institutional knowledge through rigorous (40,000+ words) documentation",
         "Compile quarterly reports to be submitted on behalf of Bowdoin College to the Federal Communications Commission",
-        "Engage 100% of the 1,100+ recorded WBOR Alumni",
-        "Implemented a Twilio-powered “Text the DJ” feature, enabling real-time listener interaction with DJs during live broadcasts. Increased listener engagement, resulting in over 500 texts per week"
+        "Engage 100% of the 1,100+ recorded WBOR Alumni"
       ]
     },
     {
@@ -74,15 +78,14 @@
       "location": "Brunswick, ME",
       "description": "Campus IT services",
       "summary": "Campus IT services",
-      "position": "Frontline A/V Technician",
-      "startDate": "2022-01-01",
+      "position": "ETS Student Technician",
+      "startDate": "2022",
       "endDate": "Present",
       "highlights": [
-        "Led audio-visual tech setup and execution for high-profile events, such as graduation and guest speakers",
+        "Aassist in event production and provide technical support for various campus events, such as graduation, guest lecturers, and the inauguration for Bowdoin's sixteenth president.",
         "Partnered with event stakeholders to translate technical requirements, swiftly troubleshooting and resolving technical issues in real-time under pressure",
         "Used TeamDynamix ITSM to generate/maintain detailed ticket records and update documentation",
-        "Mentored and trained new technicians alongside the Event Production Coordinator",
-        "Improved venue reliability and uptime by implementing rigorous weekly operational equipment checklists"
+        "Mentored and trained new technicians alongside the Event Production Coordinator"
       ]
     },
     {
@@ -94,8 +97,8 @@
       "description": "Full service photochemical film lab",
       "summary": "Full service photochemical film lab",
       "position": "Lab Technician",
-      "startDate": "2023-06-01",
-      "endDate": "2023-09-01",
+      "startDate": "",
+      "endDate": "2023",
       "highlights": [
         "Developed mastery in operating Colex and Jobo rotary film processors",
         "Proficiency in C-41, E-6, and B&W chemical processes"
@@ -109,13 +112,14 @@
       "location": "Dallas, TX",
       "description": "Business management, services, and consulting",
       "summary": "Business management, services, and consulting",
-      "position": "Director of Digital Media",
-      "startDate": "2020-06-01",
-      "endDate": "2021-07-01",
+      "position": "Digital Media Specialist",
+      "startDate": "2020",
+      "endDate": "2021",
       "highlights": [
         "Orchestrated comprehensive rebranding initiatives across six corporate entities, encompassing website design, on-site visual content creation, and streamlined online consistency",
         "Strategically aligned brand vision through regular supervisor consultations, culminating in a cohesive online identity",
-        "Conducted virtual audits for accreditation bodies such as NSF and ISO (17025), while optimizing internal operations by developing in-house hiring intake forms"
+        "Conducted virtual audits for accreditation bodies such as NSF and ISO (17025)",
+        "Optimized  internal operations by developing in-house hiring intake forms"
       ]
     }
   ],
@@ -125,8 +129,8 @@
       "position": "Community Immersion Orientation Trip Leader",
       "url": "https://www.bowdoin.edu/mckeen-center/",
       "website": "https://www.bowdoin.edu/mckeen-center/",
-      "startDate": "2022-09-01",
-      "endDate": "2024-09-01",
+      "startDate": "2022",
+      "endDate": "2024",
       "summary": "Led groups of students in community philanthropy at Maine's island communities",
       "highlights": [
         "Engaged in work with the Maine Coast Heritage Trust, the island schools, Watermans Community Center, Vinalhaven Eldercare"
@@ -135,36 +139,24 @@
     {
       "organization": "U.S. House of Representatives",
       "position": "Congressional Advisory Council Member (TX-03)",
-      "startDate": "2019-09-01",
-      "endDate": "2020-06-01",
-      "summary": "Interacted with elected officials to discuss current and proposed federal and local policy"
-    },
-    {
-      "organization": "Vice President of Meetings",
-      "position": "Young Men's Service League",
-      "startDate": "2016-08-01",
-      "endDate": "2020-05-01",
-      "summary": "",
-      "highlights": [
-        "Former Historian and Board Chair",
-        "Volunteered in local community philanthropies, including Habitat for Humanity, McKinney Roots, and HUGS Cafe"
-      ]
+      "startDate": "2019",
+      "endDate": "2020",
+      "summary": ""
     },
     {
       "organization": "Vice President of Service",
       "position": "World Affairs Council of Dallas/Fort Worth",
-      "startDate": "2017-08-01",
-      "endDate": "2020-06-01",
+      "startDate": "2017",
+      "endDate": "2020",
       "highlights": [
-        "Steered a successful marketing initiative that garnered $15,000 in support for a demining campaign in Dimce, Kosovo, with matching contributions from two external parties, including the Princess Diana Foundation",
+        "Helped steer a successful marketing initiative that garnered over $15,000 in support for a demining campaign in Dimcë, Kosovo, with matching contributions from the Princess Diana Foundation",
         "Orchestrated sponsor communication, vendor collaboration, and strategic outreach efforts, resulting in a remarkable 31% surge in club membership through targeted physical advertisements"
       ]
     },
     {
       "organization": "WWOOF-USA",
       "position": "Farm Hand",
-      "startDate": "2020-09-01",
-      "endDate": "2020-09-01",
+      "endDate": "2020",
       "summary": "Volunteered in residence at a leading New England farm and apothecary",
       "highlights": [
         "Landscaping",
@@ -175,8 +167,8 @@
     {
       "organization": "Bowdoin College Library",
       "position": "Faculty Library Committee",
-      "startDate": "2022-01-01",
-      "endDate": "2022-05-01"
+      "startDate": "",
+      "endDate": "2022"
     }
   ],
   "education": [
@@ -185,29 +177,27 @@
       "url": "https://www.bowdoin.edu/",
       "area": "Computer Science, Digital & Computational Studies",
       "studyType": "Bachelor",
-      "startDate": "2021-09-01",
-      "endDate": "2025-05-01",
+      "startDate": "2021",
+      "endDate": "2025",
       "courses": [
         "Software Engineering",
-        "Foundations of Computer Systems",
+        "Computer Systems",
         "Human-Computer Interaction",
         "Artificial Intelligence",
-        "Deep Learning",
-        "Computer Vision",
-        "Data Structures",
+        "Deep Learning for Computer Vision",
+        "Networks",
         "Digital Text Analysis",
-        "Data Science",
+        "Advanced Data Science",
         "Cognitive Architecture",
         "Theory of Computation",
-        "Tech and the Common Good",
-        "Social and Economic Networks"
+        "Tech and the Common Good"
       ]
     }
   ],
   "awards": [
     {
       "title": "StudentCam Grand Prize Winner",
-      "date": "2019-03-01",
+      "date": "2019",
       "awarder": "C-SPAN",
       "summary": "Produced winning documentary and was recognized on the US Congress House Floor by Congressman Van Taylor for helping to engage youth and bring awareness to the powers of citizen accountability in government",
       "url": "https://www.viddler.com/v/efd8cfd4",
@@ -217,19 +207,48 @@
   "skills": [
     {
       "name": "Languages / Technologies",
-      "keywords": ["Python", "Java", "C", "UNIX scripting", "HTML/CSS/JavaScript", "JSON", "RESTful APIs"]
+      "keywords": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "SQL",
+        "RESTful APIs",
+        "Bash",
+        "C"
+      ]
     },
     {
-      "name": "Tools & Frameworks",
-      "keywords": ["Atlassian Cloud Suite (Jira, Confluence)", "Node.js", "Express.js", "Git", "Docker", "VPS deployment", "Jamf Pro", "Teamdynamix ITSM"]
+      "name": "Frameworks & Technologies",
+      "keywords": [
+        "FastAPI",
+        "Express.js",
+        "Spring Boot",
+        "Flask",
+        "RabbitMQ",
+        "React",
+        "Confluence",
+        "Jamf Pro",
+        "Teamdynamix ITSM"
+      ]
     },
     {
-      "name": "Database Management",
-      "keywords": ["MySQL", "Postgres", "SQLite", "Airtable", "Google Cloud Datastore"]
+      "name": "Software",
+      "keywords": [
+        "Git",
+        "Docker",
+        "Linux",
+        "Google Cloud Platform",
+        "PostgreSQL"
+      ]
     },
     {
       "name": "Development Practices",
-      "keywords": ["Test-Driven Development", "Continuous Integration/Continuous Deployment (CI/CD)", "Object Oriented Programming (OOP)", "Agile"]
+      "keywords": [
+        "Test-Driven Development",
+        "Continuous Integration/Continuous Deployment (CI/CD)",
+        "Object Oriented Programming (OOP)",
+        "Agile"
+      ]
     }
   ],
   "interests": [
@@ -254,7 +273,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/mdrxy/mdrxy.github.io/main/_data/bio.json",
-    "version": "v1.0.1",
-    "lastModified": "2024-02-1921T23:01:00"
+    "version": "v1.0.2",
+    "lastModified": "2025-03-15T11:51:00"
   }
 }
