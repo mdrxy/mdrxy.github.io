@@ -12,5 +12,5 @@ labels:
   - Storytelling
 
 summary: "Grand Prize winning documentary answering the question: what does it mean to be American?"
-projecturl: https://www.viddler.com/v/efd8cfd4
+projecturl: https://www.c-span.org/program/vignette/what-it-means-to-be-american/525164
 ---
