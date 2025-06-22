@@ -2,18 +2,18 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Mason Daugherty",
-    "label": "Student, <a href=\"https://bowdoin.edu/\">Bowdoin College</a>",
+    "label": "Software Engineer, <a href=\"https://www.langchain.com/\">LangChain</a>",
     "picture": "img/headshot.jpg",
     "email": "portfolio@mdrxy.com",
     "phone": "",
     "website": "https://mdrxy.com",
-    "summary": "I'm a Texan-turned-Mainer, currently studying Computer Science and <a href=\"https://www.bowdoin.edu/digital-and-computational-studies/index.html\" target=\"blank\">Digital & Computational Studies</a> at Bowdoin College, graduating in 2025. I have passion for problem-solving and utilizing effective storytelling to simplify complex ideas.",
+    "summary": "Bowdoin College Computer Science '25 full-stack engineer specializing in event-driven backends and real-time integrations. I turn manual workflows into reliable, automated systems using Python, Java, TypeScript, FastAPI, Spring Boot, React, and Docker. Proven track record shipping production tools across open-source repos.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Brunswick",
+      "city": "Cambridge",
       "countryCode": "US",
-      "region": "Maine"
+      "region": "Massachusetts"
     },
     "profiles": [
       {
@@ -39,7 +39,7 @@
       "summary": "Nonprofit connecting Maine teens to the outdoors",
       "position": "Systems Integration Engineer Intern",
       "startDate": "2024",
-      "endDate": "Present",
+      "endDate": "2025",
       "highlights": [
         "Designed and implemented Express.js integrations to automate accounting tasks using Airtable and QuickBooks APIs; reduced manual data entry by over six hours weekly",
         "Leveraged Waterfall & Kanban methodologies to design, build, and provide ongoing training for a cross departmental project planning tool, resulting in org-wide adoption",
@@ -56,10 +56,10 @@
       "summary": "Noncommercial community public radio station",
       "position": "Station Manager & TechOps Lead",
       "startDate": "2022",
-      "endDate": "Present",
+      "endDate": "2025",
       "highlights": [
-        "Supervise 200+ student and community DJs while enforcing FCC guidelines, managing day-to-day operations and schedule, and coordinating delivery of live broadcasting to 30,000+ online & FM listeners",
-        "Modernized the station's tech stack by building a new website, integrating real-time WebSocket streaming, and automating metadata distribution to third-party platforms (TuneIn, Apple Music, Last.fm)",
+        "Supervised 200+ student and community DJs while enforcing FCC guidelines, managing day-to-day operations and schedule, and coordinating delivery of live broadcasting to 30,000+ online & FM listeners",
+        "Modernized the station's tech stack by building a new website, and integrating real-time WebSocket streaming for metadata distribution to third-party platforms (TuneIn, Apple Music, Last.fm)",
         "Implemented a Twilio-powered \"Text the DJ\" feature and off-site audio streaming server, resulting in a 30% reliability improvement and 500+ weekly texts from listeners",
         "Configured and maintained network infrastructure for broadcast equipment, including TCP/IP-based audio streaming, DHCP assignments, DNS config, and REST API integrations for automation and monitoring",
         "Built and maintained the <a href=\"https://wbor.org\" target=\"blank\">station's website</a>. Integrated features such as real-time program schedules, DJ profiles, and automated song logging. Alongside this, deployed and configured a new off-site audio streaming server, increasing listener capacity and reducing downtime by 30%",
@@ -78,11 +78,11 @@
       "location": "Brunswick, ME",
       "description": "Campus IT services",
       "summary": "Campus IT services",
-      "position": "ETS Student Technician",
+      "position": "Event Technology Services Technician",
       "startDate": "2022",
       "endDate": "Present",
       "highlights": [
-        "Aassist in event production and provide technical support for various campus events, such as graduation, guest lecturers, and the inauguration for Bowdoin's sixteenth president.",
+        "Assist in event production and provide technical support for various campus events, such as graduation, guest lecturers, and the inauguration for Bowdoin's sixteenth president.",
         "Partnered with event stakeholders to translate technical requirements, swiftly troubleshooting and resolving technical issues in real-time under pressure",
         "Used TeamDynamix ITSM to generate/maintain detailed ticket records and update documentation",
         "Mentored and trained new technicians alongside the Event Production Coordinator"
@@ -95,14 +95,10 @@
       "website": "https://northeastphotographic.com",
       "location": "Bath, ME",
       "description": "Full service photochemical film lab",
-      "summary": "Full service photochemical film lab",
+      "summary": "",
       "position": "Lab Technician",
       "startDate": "",
-      "endDate": "2023",
-      "highlights": [
-        "Developed mastery in operating Colex and Jobo rotary film processors",
-        "Proficiency in C-41, E-6, and B&W chemical processes"
-      ]
+      "endDate": "2023"
     },
     {
       "name": "LACORE Enterprises",
@@ -126,15 +122,12 @@
   "volunteer": [
     {
       "organization": "McKeen Center for the Common Good",
-      "position": "Community Immersion Orientation Trip Leader",
+      "position": "Orientation Trip Leader",
       "url": "https://www.bowdoin.edu/mckeen-center/",
       "website": "https://www.bowdoin.edu/mckeen-center/",
       "startDate": "2022",
       "endDate": "2024",
-      "summary": "Led groups of students in community philanthropy at Maine's island communities",
-      "highlights": [
-        "Engaged in work with the Maine Coast Heritage Trust, the island schools, Watermans Community Center, Vinalhaven Eldercare"
-      ]
+      "summary": "Vinalhaven and North Haven Island"
     },
     {
       "organization": "U.S. House of Representatives",
@@ -157,12 +150,7 @@
       "organization": "WWOOF-USA",
       "position": "Farm Hand",
       "endDate": "2020",
-      "summary": "Volunteered in residence at a leading New England farm and apothecary",
-      "highlights": [
-        "Landscaping",
-        "Horticulture",
-        "Grounds security enhancement (fencing, IP camera installation)"
-      ]
+      "summary": ""
     },
     {
       "organization": "Bowdoin College Library",
@@ -180,17 +168,17 @@
       "startDate": "2021",
       "endDate": "2025",
       "courses": [
-        "Software Engineering",
-        "Computer Systems",
-        "Human-Computer Interaction",
         "Artificial Intelligence",
         "Deep Learning for Computer Vision",
-        "Networks",
+        "Cognitive Architecture",
         "Digital Text Analysis",
         "Advanced Data Science",
-        "Cognitive Architecture",
+        "Software Engineering",
+        "Human-Computer Interaction",
+        "Computer Systems",
+        "Networks",
         "Theory of Computation",
-        "Tech and the Common Good"
+        "Technology and the Common Good"
       ]
     }
   ],
@@ -213,8 +201,7 @@
         "JavaScript",
         "SQL",
         "RESTful APIs",
-        "Bash",
-        "C"
+        "Bash"
       ]
     },
     {
@@ -226,9 +213,7 @@
         "Flask",
         "RabbitMQ",
         "React",
-        "Confluence",
-        "Jamf Pro",
-        "Teamdynamix ITSM"
+        "Confluence"
       ]
     },
     {
@@ -237,7 +222,6 @@
         "Git",
         "Docker",
         "Linux",
-        "Google Cloud Platform",
         "PostgreSQL"
       ]
     },
@@ -247,7 +231,6 @@
         "Test-Driven Development",
         "Continuous Integration/Continuous Deployment (CI/CD)",
         "Object Oriented Programming (OOP)",
-        "Agile"
       ]
     }
   ],
@@ -273,7 +256,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/mdrxy/mdrxy.github.io/main/_data/bio.json",
-    "version": "v1.0.2",
-    "lastModified": "2025-03-15T11:51:00"
+    "version": "v1.0.3",
+    "lastModified": "2025-06-21T11:51:00"
   }
 }
