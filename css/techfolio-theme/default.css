@@ -125,3 +125,132 @@
       height: 16px
     }
   }
+
+
+/* Project card image handling */
+.project-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, transparent 70%, var(--bs-card-bg) 100%);
+}
+
+
+.project-card-img {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+  object-position: top left;
+}
+
+/* Width Screen */
+@media (min-width: 768px) {
+  .project-image-container::after {
+    background-image: none;
+  }
+  .project-image-container.wide::after {
+    background-image: linear-gradient(to right, transparent 150px, var(--bs-card-bg) 250px);
+  }
+
+  .project-card-img {
+  width: auto;
+  height: 225px;
+  object-fit: cover;
+  object-position: top left;
+  }
+}
+
+.card:hover {
+  box-shadow: 2px 2px 8px var(--tf-card-hover-shadow-color);
+}
+
+.card:hover .text-muted {
+  color: var(--bs-navbar-hover-color) !important;
+}
+
+.card:hover .card-title {
+  text-decoration: underline;
+  /* color: var(--bs-link-hover-color) !important; */
+}
+
+.project-date {
+  white-space: nowrap;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Base Colors */
+    --bs-body-bg: #121212;
+    --bs-body-color: #e0e0e0;
+
+    /* Elevated Surface Colors */
+    --tf-surface-bg-color: #1c1c1c;
+    --tf-card-hover-shadow-color: rgba(1, 1, 1, 0.5);
+
+    /* Links */
+    --bs-link-color: #58a6ff;
+    --bs-link-hover-color: #1f6feb;
+
+    /* Icons */
+    --tf-icon-fill: var(--bs-gray-200);
+    --tf-icon-hover: var(--bs-gray-400);
+
+    /* Page Sections */
+    --tf-page-bg-color: var(--bs-body-bg);
+    --tf-footer-bg-color: var(--tf-surface-bg-color);
+    --tf-projects-bg-color: var(--tf-surface-bg-color);
+    --tf-essays-bg-color: var(--tf-surface-bg-color);
+
+    /* Bootstrap Component Overrides */
+    --bs-light-rgb: 33,37,41;
+    --bs-gradient: none;
+    --bs-card-bg: var(--tf-surface-bg-color);
+    --bs-badge-color: #e0e0e0;
+    
+    /* Pill (Hashtags) Background */
+    --tf-pill-bg: var(--bs-gray-900);
+  }
+
+  body {
+    background-color: var(--bs-body-bg);
+    color: var(--bs-body-color);
+  }
+  
+  .navbar {
+    /* Set background to be fully transparent to let body background show through */
+    --bs-bg-opacity: 0;
+    --bs-navbar-color: rgba(230, 230, 230, 0.75);
+    --bs-navbar-brand-color: var(--bs-navbar-color);
+    --bs-navbar-hover-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-border-color: var(--bs-gray-500);
+  }
+
+  footer.navbar {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .text-muted {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
+  .btn-outline-dark {
+    color: var(--bs-body-color);
+    border-color: var(--bs-body-color);
+  }
+
+  .card {
+    --bs-card-bg: var(--bs-body-bg);
+  }
+
+  .card-footer {
+    /* Ensure footer inherits the card's background color */
+    background-color: var(--bs-card-bg);
+  }
+}
