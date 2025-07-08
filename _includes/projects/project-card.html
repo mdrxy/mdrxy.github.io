@@ -1,9 +1,9 @@
 <div class="card mb-3">
   <div class="row g-0">
-    <div class="col-sm-6 col-md-4">
-      <img src="{{ site.baseurl }}/{{ include.page.image }}" height="225px" class="rounded-start">
+    <div class="col-md-4 project-image-container">
+      <img src="{{ site.baseurl }}/{{ include.page.image }}" class="rounded project-card-img" alt="{{ include.page.title }}">
     </div>
-    <div class="col-sm-6 col-md-8">
+    <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date }}</small></h5>
         <p class="card-text">{{ include.page.summary }}</p>
