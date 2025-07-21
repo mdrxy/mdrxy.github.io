@@ -331,7 +331,7 @@ Commenting out this because in mdrxy.com there's still the button.
 .theme-light {
   /* Reset to light theme values */
   --bs-body-bg: var(--bs-white);
-  --bs-body-color: var(--bs-body-color-rgb);
+  --bs-body-color: var(--bs-dark);
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--bs-gray-200);
   --tf-projects-bg-color: var(--bs-gray-100);
