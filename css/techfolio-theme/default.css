@@ -66,65 +66,58 @@
 
 
 /* EQ Animation */
-  .eq-bar {
-    transform: scale(1, -1) translate(0, -24px);
+.eq-bar {
+  transform: scale(1, -1) translate(0, -24px);
+}
+
+.eq-bar--1 {
+  animation-name: short-eq;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+.eq-bar--2 {
+  animation-name: tall-eq;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.17s;
+}
+
+.eq-bar--3 {
+  animation-name: short-eq;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.34s;
+}
+
+@keyframes short-eq {
+  0% {
+    height: 8px
   }
 
-  .eq-bar--1 {
-    animation-name: short-eq;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-delay: 0s;
+  50% {
+    height: 4px
   }
 
-  .eq-bar--1 {
-    animation-name: short-eq;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-delay: 0s;
+  100% {
+    height: 8px
+  }
+}
+
+@keyframes tall-eq {
+  0% {
+    height: 16px
   }
 
-  .eq-bar--2 {
-    animation-name: tall-eq;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-delay: 0.17s;
+  50% {
+    height: 6px
   }
 
-  .eq-bar--3 {
-    animation-name: short-eq;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-delay: 0.34s;
+  100% {
+    height: 16px
   }
-
-  @keyframes short-eq {
-    0% {
-      height: 8px
-    }
-
-    50% {
-      height: 4px
-    }
-
-    100% {
-      height: 8px
-    }
-  }
-
-  @keyframes tall-eq {
-    0% {
-      height: 16px
-    }
-
-    50% {
-      height: 6px
-    }
-
-    100% {
-      height: 16px
-    }
-  }
+}
 
 
 /* Project card image handling */
@@ -153,17 +146,19 @@
   .project-image-container::after {
     background-image: none;
   }
+
   .project-image-container.wide::after {
     background-image: linear-gradient(to right, transparent 150px, var(--bs-card-bg) 250px);
   }
 
   .project-card-img {
-  width: auto;
-  height: 225px;
-  object-fit: cover;
-  object-position: top left;
+    width: auto;
+    height: 225px;
+    object-fit: cover;
+    object-position: top left;
   }
 }
+
 /* 
 
 Commenting out this because in mdrxy.com there's still the button. 
@@ -179,9 +174,9 @@ Commenting out this because in mdrxy.com there's still the button.
 .card:hover .card-title {
   text-decoration: underline;
   /* color: var(--bs-link-hover-color) !important; */
-} */
+}
 
-.project-date {
+*/ .project-date {
   white-space: nowrap;
 }
 
@@ -211,23 +206,21 @@ Commenting out this because in mdrxy.com there's still the button.
     --tf-essays-bg-color: var(--tf-surface-bg-color);
 
     /* Bootstrap Component Overrides */
-    --bs-light-rgb: 33,37,41;
+    --bs-light-rgb: 33, 37, 41;
     --bs-gradient: none;
     --bs-card-bg: var(--tf-surface-bg-color);
     --bs-badge-color: #e0e0e0;
-    
+
     /* Pill (Hashtags) Background */
     --tf-pill-bg: var(--bs-gray-900);
-  }
 
-  body {
     background-color: var(--bs-body-bg);
     color: var(--bs-body-color);
   }
-  
-  .navbar {
-    /* Set background to be fully transparent to let body background show through */
-    --bs-bg-opacity: 0;
+
+  body:not(.theme-light) .navbar {
+    --bs-bg-opacity: 1;
+    background-color: var(--tf-surface-bg-color) !important;
     --bs-navbar-color: rgba(230, 230, 230, 0.75);
     --bs-navbar-brand-color: var(--bs-navbar-color);
     --bs-navbar-hover-color: #fff;
@@ -235,25 +228,24 @@ Commenting out this because in mdrxy.com there's still the button.
     --bs-border-color: var(--bs-gray-500);
   }
 
-  footer.navbar {
+  body:not(.theme-light) footer.navbar {
     color: rgba(255, 255, 255, 0.75);
   }
 
-  .text-muted {
+  body:not(.theme-light) .text-muted {
     color: rgba(255, 255, 255, 0.5) !important;
   }
 
-  .btn-outline-dark {
+  body:not(.theme-light) .btn-outline-dark {
     color: var(--bs-body-color);
     border-color: var(--bs-body-color);
   }
 
-  .card {
+  body:not(.theme-light) .card {
     --bs-card-bg: var(--bs-body-bg);
   }
 
-  .card-footer {
-    /* Ensure footer inherits the card's background color */
+  body:not(.theme-light) .card-footer {
     background-color: var(--bs-card-bg);
   }
 }
@@ -283,11 +275,11 @@ Commenting out this because in mdrxy.com there's still the button.
   --tf-essays-bg-color: var(--tf-surface-bg-color);
 
   /* Bootstrap Component Overrides */
-  --bs-light-rgb: 33,37,41;
+  --bs-light-rgb: 33, 37, 41;
   --bs-gradient: none;
   --bs-card-bg: var(--tf-surface-bg-color);
   --bs-badge-color: #e0e0e0;
-  
+
   /* Pill (Hashtags) Background */
   --tf-pill-bg: var(--bs-gray-900);
 
@@ -296,8 +288,8 @@ Commenting out this because in mdrxy.com there's still the button.
 }
 
 .theme-dark .navbar {
-  /* Set background to be fully transparent to let body background show through */
-  --bs-bg-opacity: 0;
+  --bs-bg-opacity: 1;
+  background-color: var(--tf-surface-bg-color) !important;
   --bs-navbar-color: rgba(230, 230, 230, 0.75);
   --bs-navbar-brand-color: var(--bs-navbar-color);
   --bs-navbar-hover-color: #fff;

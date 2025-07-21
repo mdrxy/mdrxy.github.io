@@ -1,8 +1,3 @@
-/**
- * Theme Toggle functionality for mdrxy.com
- * Supports light, dark, and system themes with localStorage persistence
- */
-
 (function() {
   'use strict';
 
