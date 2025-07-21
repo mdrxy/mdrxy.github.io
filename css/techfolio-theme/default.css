@@ -185,6 +185,7 @@ Commenting out this because in mdrxy.com there's still the button.
   white-space: nowrap;
 }
 
+/* Dark theme variables and styles (for system preference and forced dark mode) */
 @media (prefers-color-scheme: dark) {
   :root {
     /* Base Colors */
@@ -255,4 +256,104 @@ Commenting out this because in mdrxy.com there's still the button.
     /* Ensure footer inherits the card's background color */
     background-color: var(--bs-card-bg);
   }
+}
+
+/* Force dark theme when theme-dark class is applied */
+.theme-dark {
+  /* Base Colors */
+  --bs-body-bg: #121212;
+  --bs-body-color: #e0e0e0;
+
+  /* Elevated Surface Colors */
+  --tf-surface-bg-color: #1c1c1c;
+  --tf-card-hover-shadow-color: rgba(1, 1, 1, 0.5);
+
+  /* Links */
+  --bs-link-color: #58a6ff;
+  --bs-link-hover-color: #1f6feb;
+
+  /* Icons */
+  --tf-icon-fill: var(--bs-gray-200);
+  --tf-icon-hover: var(--bs-gray-400);
+
+  /* Page Sections */
+  --tf-page-bg-color: var(--bs-body-bg);
+  --tf-footer-bg-color: var(--tf-surface-bg-color);
+  --tf-projects-bg-color: var(--tf-surface-bg-color);
+  --tf-essays-bg-color: var(--tf-surface-bg-color);
+
+  /* Bootstrap Component Overrides */
+  --bs-light-rgb: 33,37,41;
+  --bs-gradient: none;
+  --bs-card-bg: var(--tf-surface-bg-color);
+  --bs-badge-color: #e0e0e0;
+  
+  /* Pill (Hashtags) Background */
+  --tf-pill-bg: var(--bs-gray-900);
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.theme-dark .navbar {
+  /* Set background to be fully transparent to let body background show through */
+  --bs-bg-opacity: 0;
+  --bs-navbar-color: rgba(230, 230, 230, 0.75);
+  --bs-navbar-brand-color: var(--bs-navbar-color);
+  --bs-navbar-hover-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+  --bs-border-color: var(--bs-gray-500);
+}
+
+.theme-dark footer.navbar {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.theme-dark .text-muted {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.theme-dark .btn-outline-dark {
+  color: var(--bs-body-color);
+  border-color: var(--bs-body-color);
+}
+
+.theme-dark .card {
+  --bs-card-bg: var(--bs-body-bg);
+}
+
+.theme-dark .card-footer {
+  /* Ensure footer inherits the card's background color */
+  background-color: var(--bs-card-bg);
+}
+
+/* Force light theme when theme-light class is applied */
+.theme-light {
+  /* Reset to light theme values */
+  --bs-body-bg: var(--bs-white);
+  --bs-body-color: var(--bs-body-color-rgb);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--bs-gray-200);
+  --tf-projects-bg-color: var(--bs-gray-100);
+  --tf-pill-bg: var(--bs-gray);
+  --tf-icon-fill: var(--bs-gray);
+  --tf-icon-hover: var(--bs-gray-500);
+  --bs-link-color: var(--bs-blue);
+  --bs-card-bg: var(--bs-white);
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.theme-light .navbar {
+  --bs-bg-opacity: 1;
+  --bs-navbar-color: rgba(0, 0, 0, 0.65);
+  --bs-navbar-brand-color: var(--bs-navbar-color);
+  --bs-navbar-hover-color: rgba(0, 0, 0, 0.8);
+  --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+  --bs-border-color: var(--bs-border-color);
+}
+
+.theme-light .card-footer {
+  background-color: var(--bs-white);
 }
