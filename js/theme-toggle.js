@@ -10,7 +10,7 @@
   const THEMES = {
     LIGHT: 'light',
     DARK: 'dark',
-    SYSTEM: 'system'
+    SYSTEM: 'system',
   };
   
   const THEME_ICONS = {
