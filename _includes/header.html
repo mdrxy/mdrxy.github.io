@@ -5,9 +5,19 @@
     <div class="ms-auto">
       <!-- <ul class="navbar-nav mb-2 mb-lg-0"> -->
       <ul class="navbar-nav mb-lg-0">
-        <a class="nav-link" href="{{ '/projects/' | prepend: site.baseurl }}">Projects</a>
-        <a class="nav-link" href="{{ '/essays/' | prepend: site.baseurl }}">Writing</a>
-        <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
+        <li class="nav-item"><a class="nav-link" href="{{ '/projects/' | prepend: site.baseurl }}">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/essays/' | prepend: site.baseurl }}">Writing</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Theme">
+            <span id="theme-icon">🌙</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#" data-theme="light">☀️ Light</a></li>
+            <li><a class="dropdown-item" href="#" data-theme="dark">🌙 Dark</a></li>
+            <li><a class="dropdown-item" href="#" data-theme="system">💻 System</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
