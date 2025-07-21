@@ -9,9 +9,9 @@
   };
   
   const THEME_ICONS = {
-    [THEMES.LIGHT]: '☀️',
-    [THEMES.DARK]: '🌙', 
-    [THEMES.SYSTEM]: '💻'
+    [THEMES.LIGHT]: 'bi-sun-fill',
+    [THEMES.DARK]: 'bi-moon-stars-fill', 
+    [THEMES.SYSTEM]: 'bi-laptop-fill'
   };
 
   let currentTheme = THEMES.SYSTEM;
@@ -45,7 +45,8 @@
   function updateThemeIcon() {
     const iconElement = document.getElementById('theme-icon');
     if (iconElement) {
-      iconElement.textContent = THEME_ICONS[currentTheme];
+      iconElement.className = '';
+      iconElement.classList.add('bi', THEME_ICONS[currentTheme]);
     }
   }
 
