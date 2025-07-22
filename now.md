@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: essay
 title: Now
 permalink: /now/
 ---
