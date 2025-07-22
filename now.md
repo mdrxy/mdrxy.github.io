@@ -4,6 +4,8 @@ title: Now
 permalink: /now/
 ---
 
+<link rel="stylesheet" href="/css/now.css">
+
 <div class="blurb">
  <h1>What I'm doing now</h1>
  <p>This is a <a href="https://nownownow.com/about">now page</a>. Last updated July 22, 2025.</p>
