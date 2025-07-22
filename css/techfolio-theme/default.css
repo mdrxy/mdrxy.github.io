@@ -68,6 +68,7 @@
 /* EQ Animation */
 .eq-bar {
   transform: scale(1, -1) translate(0, -24px);
+  fill: var(--bs-body-color);
 }
 
 .eq-bar--1 {
@@ -159,9 +160,9 @@
   }
 }
 
-/* 
+/*
 
-Commenting out this because in mdrxy.com there's still the button. 
+Commenting out this because in mdrxy.com there's still the button.
 
 .card:hover {
   box-shadow: 2px 2px 8px var(--tf-card-hover-shadow-color);
