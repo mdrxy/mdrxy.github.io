@@ -328,6 +328,7 @@ Commenting out this because in mdrxy.com there's still the button.
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--bs-gray-200);
   --tf-projects-bg-color: var(--bs-gray-100);
+  --tf-essays-bg-color: var(--bs-gray-100);
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
   --tf-icon-hover: var(--bs-gray-500);
@@ -349,4 +350,13 @@ Commenting out this because in mdrxy.com there's still the button.
 
 .theme-light .card-footer {
   background-color: var(--bs-white);
+}
+
+.footer-themed {
+  background-color: var(--tf-footer-bg-color);
+  color: var(--bs-body-color);
+}
+
+.essays-themed {
+  background-color: var(--tf-essays-bg-color);
 }
