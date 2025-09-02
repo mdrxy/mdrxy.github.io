@@ -1,7 +1,5 @@
 # Professional Portfolio
 
-![Personal Résume Website](/img/page.png)
-
 [Based on TechFolios](https://techfolios.github.io), modified by yours truly to include:
 
 * [Dynamically updating now/recently played song pulled from Last.fm's API](https://www.last.fm/api/show/user.getRecentTracks)
