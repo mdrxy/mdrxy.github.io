@@ -64,7 +64,7 @@
         "Configured and maintained network infrastructure for broadcast equipment, including TCP/IP-based audio streaming, DHCP assignments, DNS config, and REST API integrations for automation and monitoring",
         "Built and maintained the <a href=\"https://wbor.org\" target=\"blank\">station's website</a>. Integrated features such as real-time program schedules, DJ profiles, and automated song logging. Alongside this, deployed and configured a new off-site audio streaming server, increasing listener capacity and reducing downtime by 30%",
         "Wrote 40000+ words of documentation (best practices, admin tool guidelines, software maintenance & troubleshooting, recurring processes & procedures) and created adaptable design diagrams",
-        "Principle project manager and developer for numerous microservices: <a href=\"github.com/WBOR-91-1-FM/\" target=\"blank\">github.com/WBOR-91-1-FM/</a>",
+        "Principle project manager and developer for numerous microservices: <a href=\"github.com/wbor-fm/\" target=\"blank\">github.com/wbor-fm/</a>",
         "Strengthened station security by implementing 1Password Enterprise with SSO, streamlining account management and preserving institutional knowledge through rigorous (40,000+ words) documentation",
         "Compile quarterly reports to be submitted on behalf of Bowdoin College to the Federal Communications Commission",
         "Engage 100% of the 1,100+ recorded WBOR Alumni"
