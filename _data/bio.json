@@ -4,7 +4,7 @@
     "name": "Mason Daugherty",
     "label": "Software Engineer, <a href=\"https://www.langchain.com/\">LangChain</a>",
     "picture": "img/headshot.jpg",
-    "email": "portfolio@mdrxy.com",
+    "email": "",
     "phone": "",
     "website": "https://mdrxy.com",
     "summary": "Full-stack engineer specializing in event-driven backends and real-time integrations. I turn manual workflows into reliable, automated systems using Python, Java, TypeScript, FastAPI, Spring Boot, React, and Docker. Proven track record shipping production tools across open-source repos.",
@@ -256,7 +256,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/mdrxy/mdrxy.github.io/main/_data/bio.json",
-    "version": "v1.0.3",
-    "lastModified": "2025-06-21T11:51:00"
+    "version": "v0.0.4",
+    "lastModified": "2025-10-29T00:06:00"
   }
 }
