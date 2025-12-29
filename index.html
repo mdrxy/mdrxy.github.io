@@ -1,8 +1,74 @@
----
-title: Home
-layout: home
----
-
-{% include about/about.html %}
-{% include projects/projects.html limit=3 %}
-{% include essays/essays.html limit=6 %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mason Daugherty - Software Engineer based in Cambridge, MA. Core maintainer at LangChain.">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://mdrxy.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mason Daugherty - Software Engineer">
+    <meta property="og:description" content="Software Engineer based in Cambridge, MA. Core maintainer at LangChain.">
+    <meta property="og:url" content="https://mdrxy.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Mason Daugherty - Software Engineer">
+    <meta name="twitter:description" content="Software Engineer based in Cambridge, MA. Core maintainer at LangChain.">
+    <title>Mason Daugherty - Software Engineer</title>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Mason Daugherty","url":"https://mdrxy.com","jobTitle":"Software Engineer","worksFor":{"@type":"Organization","name":"LangChain","url":"https://github.com/langchain-ai"},"address":{"@type":"PostalAddress","addressLocality":"Cambridge","addressRegion":"MA"},"sameAs":["https://github.com/mdrxy"]}</script>
+    <style>
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 48px 24px;
+            line-height: 1.7;
+        }
+        h1 {
+            font-size: 1rem;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 10px;
+            margin: 0 0 32px 0;
+        }
+        p {
+            margin: 0 0 14px 0;
+        }
+        a {
+            color: inherit;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        a:focus-visible {
+            outline: 2px solid #000;
+            outline-offset: 2px;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #000;
+        }
+        footer a {
+            margin-right: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mason Daugherty</h1>
+    </header>
+    <main>
+        <p>Core maintainer of open source packages at <a href="https://github.com/langchain-ai" rel="noopener noreferrer">LangChain</a>.</p>
+        <p>Previously built tooling at <a href="https://teenstotrails.org" rel="noopener noreferrer">Teens to Trails</a> to connect teens with the outdoors. Before that, ran <a href="https://github.com/wbor-fm/" rel="noopener noreferrer">WBOR 91.1 FM</a>—200+ volunteers, a facility relocation, and a full technical rebuild.</p>
+        <p>Some things I believe: Take opportunities with a chance to learn. Good relationships require honesty—with yourself and others—even when it's uncomfortable. Change starts local.</p>
+        <p>Based in Cambridge, MA. Road cycling and film photography keep me present.</p>
+        
+        <p>Go U Bears!</p>
+    </main>
+    <footer>
+        <a href="https://github.com/mdrxy" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:portfolio@mdrxy.com">portfolio@mdrxy.com</a>
+    </footer>
+</body>
+</html>
