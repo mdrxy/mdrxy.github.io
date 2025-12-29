@@ -74,6 +74,10 @@
         }
 
         /* Last.fm equalizer animation */
+        #lastfm svg {
+            vertical-align: middle;
+            margin-left: 4px;
+        }
         .eq-bar {
             transform: scale(1, -1) translate(0, -24px);
             fill: #000;
@@ -108,7 +112,7 @@
         }
 
         @media (prefers-color-scheme: dark) {
-            body { background: #111; color: #eee; }
+            body { background: #1a1a1a; color: #eee; }
             h1, #lastfm, footer { border-color: #eee; }
             a:focus-visible { outline-color: #eee; }
             .meta { color: #999; }
