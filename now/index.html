@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="What Mason Daugherty is doing now - a now page.">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://mdrxy.com/now/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Now - Mason Daugherty">
+    <meta property="og:description" content="What Mason Daugherty is doing now.">
+    <meta property="og:url" content="https://mdrxy.com/now/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Now - Mason Daugherty">
+    <meta name="twitter:description" content="What Mason Daugherty is doing now.">
+    <title>Now - Mason Daugherty</title>
+    <style>
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 48px 24px;
+            line-height: 1.7;
+        }
+        h1 {
+            font-size: 1rem;
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 10px;
+            margin: 0 0 32px 0;
+        }
+        h2 {
+            font-size: 1rem;
+            font-weight: bold;
+            margin: 28px 0 14px 0;
+        }
+        p {
+            margin: 0 0 14px 0;
+        }
+        a {
+            color: inherit;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        a:focus-visible {
+            outline: 2px solid #000;
+            outline-offset: 2px;
+        }
+        .back {
+            display: inline-block;
+            margin-bottom: 24px;
+            font-size: 0.9rem;
+        }
+        .meta {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 28px;
+        }
+        #lastfm {
+            margin-top: 28px;
+            padding-top: 16px;
+            border-top: 1px solid #000;
+            font-size: 0.9rem;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 16px;
+            border-top: 1px solid #000;
+        }
+        footer a {
+            margin-right: 1em;
+        }
+
+        /* Last.fm equalizer animation */
+        .eq-bar {
+            transform: scale(1, -1) translate(0, -24px);
+            fill: #000;
+        }
+        .eq-bar--1 {
+            animation-name: short-eq;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+        }
+        .eq-bar--2 {
+            animation-name: tall-eq;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-delay: 0.17s;
+        }
+        .eq-bar--3 {
+            animation-name: short-eq;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-delay: 0.34s;
+        }
+        @keyframes short-eq {
+            0% { height: 8px }
+            50% { height: 4px }
+            100% { height: 8px }
+        }
+        @keyframes tall-eq {
+            0% { height: 16px }
+            50% { height: 6px }
+            100% { height: 16px }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body { background: #111; color: #eee; }
+            h1, #lastfm, footer { border-color: #eee; }
+            a:focus-visible { outline-color: #eee; }
+            .meta { color: #999; }
+            .eq-bar { fill: #eee; }
+        }
+    </style>
+</head>
+<body>
+    <a href="/" class="back">&larr; Back</a>
+    <header>
+        <h1>Now</h1>
+    </header>
+    <main>
+        <p class="meta">This is a <a href="https://nownownow.com/about" rel="noopener noreferrer">now page</a>. Last updated October 29, 2025.</p>
+
+        <h2>Work</h2>
+        <p>I work at <a href="https://langchain.com/" rel="noopener noreferrer">LangChain</a>, where I develop a myriad of open-source packages (primarily <code>langchain</code>).</p>
+
+        <h2>Life</h2>
+        <p>Over the summer I picked up cycling. It's been a great way to explore the Boston metro area. Otherwise, I try to get out to the mountains when time permits for a nice hike.</p>
+        <p>On the side, I'm still doing occasional volunteer development for <a href="https://www.teenstotrails.org/" rel="noopener noreferrer">Teens to Trails</a> and <a href="https://wbor.org/" rel="noopener noreferrer">WBOR</a>.</p>
+
+        <h2>Future</h2>
+        <p>I haven't been doing as much film photography lately, but it's something I'd like to get back into soon.</p>
+
+        <p id="lastfm"></p>
+    </main>
+    <footer>
+        <a href="https://github.com/mdrxy" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:portfolio@mdrxy.com">portfolio@mdrxy.com</a>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const apiKey = 'c1797de6bf0b7e401b623118120cd9e1';
+            const username = 'mdrxy';
+            let currentTrack;
+            let trackName;
+            let artistName;
+            let trackUrl;
+
+            const eqAnimation = `
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <rect class="eq-bar eq-bar--1" x="4" y="4" width="3.7" height="8" />
+                <rect class="eq-bar eq-bar--2" x="10.2" y="4" width="3.7" height="16" />
+                <rect class="eq-bar eq-bar--3" x="16.3" y="4" width="3.7" height="11" />
+                </svg>
+            `;
+
+            function fetchTrackInfo(trackName, artistName) {
+                return fetch(`https://ws.audioscrobbler.com/2.0/?method=track.getInfo&api_key=${apiKey}&artist=${artistName}&track=${trackName}&format=json`)
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.track && data.track.duration) {
+                            return parseInt(data.track.duration, 10);
+                        } else {
+                            return null;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching song data:', error);
+                        return null;
+                    });
+            }
+
+            function fetchNowListening() {
+                return fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&limit=1&api_key=${apiKey}&format=json`)
+                    .then(response => response.json())
+                    .then(data => {
+                        const recentTracks = data.recenttracks.track;
+                        if (recentTracks && recentTracks.length > 0) {
+                            currentTrack = recentTracks[0];
+                            trackName = currentTrack.name || 'Unknown track';
+                            artistName = currentTrack.artist['#text'] || 'Unknown artist';
+                            trackUrl = currentTrack.url || 'https://www.last.fm/';
+
+                            const artistUrl = trackUrl.replace(/\/_\/[^\/]+$/, '/') || 'https://www.last.fm/';
+                            const prefixText = (currentTrack['@attr'] && currentTrack['@attr'].nowplaying)
+                                ? "<b>Currently Listening To:</b>"
+                                : "Played Recently:";
+
+                            const eqAnimationHTML = (prefixText === "<b>Currently Listening To:</b>") ? eqAnimation : "";
+                            document.getElementById('lastfm').innerHTML = `${prefixText} <a href="${trackUrl}" target="_blank">${trackName}</a> by <a href="${artistUrl}" target="_blank">${artistName}</a> ${eqAnimationHTML}`;
+
+                            return fetchTrackInfo(trackName, artistName);
+                        } else {
+                            document.getElementById('lastfm').textContent = `Last.fm returned a malformed response :(`;
+                            return null;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching data:', error);
+                        document.getElementById('lastfm').textContent = `Error fetching data from Last.fm`;
+                        return null;
+                    });
+            }
+
+            function pollTrackInfo() {
+                fetchNowListening().then(trackDuration => {
+                    let pollInterval = 30000;
+                    if (trackDuration && trackDuration > 0) {
+                        pollInterval = trackDuration;
+                    }
+                    setTimeout(pollTrackInfo, pollInterval);
+                });
+            }
+
+            pollTrackInfo();
+        });
+    </script>
+</body>
+</html>
